@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc3408340d50a4540bcb2e6d9dad190b, type: 3}
+  m_Name: Fts_RunSoundCollection
+  m_EditorClassIdentifier: 
+  clips:
+  - {fileID: 8300000, guid: 2ce63c41b01f14d48a5a7713b09e4e56, type: 3}
+  - {fileID: 8300000, guid: 06a47e92ff8f8471b800f03c6c2dcbc5, type: 3}
+  - {fileID: 8300000, guid: bd1109f26fd854d208ca304f9d64ed31, type: 3}
+  - {fileID: 8300000, guid: 0cbb2a563c63e435d9af95df04d53f82, type: 3}
+  - {fileID: 8300000, guid: 2bc2d1727a8d94f0f8244620227cdf7f, type: 3}
+  - {fileID: 8300000, guid: 0c6a1f880739d41dbb18e7c8bc6a7ef5, type: 3}
+  - {fileID: 8300000, guid: 4cc8a3cc66edb485988c682e933d6fc1, type: 3}

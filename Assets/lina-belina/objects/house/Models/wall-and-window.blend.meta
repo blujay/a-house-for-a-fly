@@ -1,0 +1,248 @@
+fileFormatVersion: 2
+guid: e9673bba322c941da999f573715f5cef
+timeCreated: 1510313682
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Cube_002
+    100002: glass-frame-left
+    100004: glass-frame-right
+    100006: glass-left
+    100008: glass-right
+    100010: shutter-left
+    100012: shutter-right
+    100014: //RootNode
+    100016: Window_frame
+    100018: Wall
+    100020: Cylinder
+    100022: Torus
+    100024: Torus_002
+    100026: Torus_003
+    100028: hook
+    100030: left-catch
+    100032: right-catch
+    100034: slider-catch-left
+    100036: slider-catch-left_001
+    100038: slider-catch-right
+    100040: slider-catch-top-left
+    100042: slider-catch-top-right
+    100044: slider-right
+    100046: slider-top-left
+    100048: slider-top-right
+    400000: Cube_002
+    400002: glass-frame-left
+    400004: glass-frame-right
+    400006: glass-left
+    400008: glass-right
+    400010: shutter-left
+    400012: shutter-right
+    400014: //RootNode
+    400016: Window_frame
+    400018: Wall
+    400020: Cylinder
+    400022: Torus
+    400024: Torus_002
+    400026: Torus_003
+    400028: hook
+    400030: left-catch
+    400032: right-catch
+    400034: slider-catch-left
+    400036: slider-catch-left_001
+    400038: slider-catch-right
+    400040: slider-catch-top-left
+    400042: slider-catch-top-right
+    400044: slider-right
+    400046: slider-top-left
+    400048: slider-top-right
+    2300000: Cube_002
+    2300002: glass-frame-left
+    2300004: glass-frame-right
+    2300006: glass-left
+    2300008: glass-right
+    2300010: shutter-left
+    2300012: shutter-right
+    2300014: Window_frame
+    2300016: Wall
+    2300018: Cylinder
+    2300020: Torus
+    2300022: Torus_002
+    2300024: Torus_003
+    2300026: hook
+    2300028: left-catch
+    2300030: right-catch
+    2300032: slider-catch-left
+    2300034: slider-catch-left_001
+    2300036: slider-catch-right
+    2300038: slider-catch-top-left
+    2300040: slider-catch-top-right
+    2300042: slider-right
+    2300044: slider-top-left
+    2300046: slider-top-right
+    3300000: Cube_002
+    3300002: glass-frame-left
+    3300004: glass-frame-right
+    3300006: glass-left
+    3300008: glass-right
+    3300010: shutter-left
+    3300012: shutter-right
+    3300014: Window_frame
+    3300016: Wall
+    3300018: Cylinder
+    3300020: Torus
+    3300022: Torus_002
+    3300024: Torus_003
+    3300026: hook
+    3300028: left-catch
+    3300030: right-catch
+    3300032: slider-catch-left
+    3300034: slider-catch-left_001
+    3300036: slider-catch-right
+    3300038: slider-catch-top-left
+    3300040: slider-catch-top-right
+    3300042: slider-right
+    3300044: slider-top-left
+    3300046: slider-top-right
+    4300000: Window_frame
+    4300002: glass-frame-left
+    4300004: shutter-left
+    4300006: glass-left
+    4300008: glass-frame-right
+    4300010: glass-right
+    4300012: shutter-right
+    4300014: Cube_002
+    4300016: Wall
+    4300018: Cylinder
+    4300020: Torus
+    4300022: Torus_003
+    4300024: Torus_002
+    4300026: hook
+    4300028: right-catch
+    4300030: left-catch
+    4300032: slider-catch-left_001
+    4300034: slider-catch-left
+    4300036: slider-catch-top-left
+    4300038: slider-top-left
+    4300040: slider-catch-top-right
+    4300042: slider-top-right
+    4300044: slider-catch-right
+    4300046: slider-right
+    6400000: glass-frame-left
+    6400002: glass-frame-right
+    6400004: glass-left
+    6400006: glass-right
+    6400008: hook
+    6400010: left-catch
+    6400012: right-catch
+    6400014: shutter-left
+    6400016: shutter-right
+    6400018: slider-catch-left
+    6400020: slider-catch-left_001
+    6400022: slider-catch-right
+    6400024: slider-catch-top-left
+    6400026: slider-catch-top-right
+    6400028: slider-right
+    6400030: slider-top-left
+    6400032: slider-top-right
+    6400034: Wall
+    6400036: Window_frame
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glass
+    second: {fileID: 2100000, guid: 5d1df5c2618088e42a31aeb03d8c5df8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: unnamed
+    second: {fileID: 2100000, guid: 9b087fdd80dc54ad0a8084baa1cb9ccd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wood
+    second: {fileID: 2100000, guid: 13c423fd5e384134e9c9981ea051d083, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wood-dark
+    second: {fileID: 2100000, guid: e2c08fe077b93d44c93eef0f0b5eb98d, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
