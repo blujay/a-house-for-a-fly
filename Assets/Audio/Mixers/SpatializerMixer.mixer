@@ -105,7 +105,7 @@ AudioMixerSnapshotController:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Snapshot Init
+  m_Name: Bedroom1Snapshot
   m_AudioMixer: {fileID: 24100000}
   m_SnapshotID: a069d6b9a45325b43b6121c1de0b82fa
   m_FloatValues:
@@ -150,7 +150,7 @@ AudioMixerSnapshotController:
     5f0898855add70243aa14b3ea2677074: 1
     01578495ccbabed42984621c044e5d72: 0.97
     77d987a5a23fe9f40bc2a0ef32d60de5: 122
-    12a5d8c5c8c6f4bac872e5146864c19f: -2.7029064
+    12a5d8c5c8c6f4bac872e5146864c19f: -80
     bd33a706336bb6742960b31b56d6d312: 0
     70fb34464dced4d4fa0fcbc0a9bbcb03: 104
     fd57dbc6c9ab56441b50cb4ec452b383: 0.5
@@ -177,7 +177,7 @@ AudioMixerSnapshotController:
     528077a94b0c9414ebb8e893ec848cb5: 3.55
     77747ac9fbec3bd4ea88da457cdb9929: 0.388
     bac2bbc985be64f40b41721b00cd60b6: 1
-    bc9f69d9b40bf425cbcc6c8e967c27f3: 2.850226
+    bc9f69d9b40bf425cbcc6c8e967c27f3: -80
     aca764e9e8594ad4e82b73de0b803e6c: 0.379
     ea845bf95b8ca3643b1e02f7eb395c20: 124
     e462400a2ed2f45228e6ed285ecbfbf3: 1600
@@ -209,7 +209,7 @@ AudioMixerSnapshotController:
     d779d8cc83e43cc4592a9ba5ce40cb9e: 0.415
     447f4ecc9e3c96c4582c34dfc66436ae: 0
     59a6d9dcc7b10463ea8b335a48c545c6: -80
-    37542adc6bf934361a7f2ad7011480c7: 3.704152
+    37542adc6bf934361a7f2ad7011480c7: -80
     6dc37decaec0c0f468ba6c1fb4f95ebf: 50
     aff67efc612d61b469184c39ea2c6339: 0.379
     5168eefc6d05f3d4d802a585308e8b67: 0.588
