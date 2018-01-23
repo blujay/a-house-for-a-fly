@@ -9,6 +9,7 @@ TagManager:
   - reward
   - Chicken
   - FxTemporaire
+  - projectile
   layers:
   - Default
   - TransparentFX
@@ -20,7 +21,7 @@ TagManager:
   - 
   - Collision
   - Ground
-  - 
+  - Landable
   - 
   - 
   - 
