@@ -4,7 +4,7 @@ using System.Collections;
 using VRTK;
 
 
-public class Knob_Grab_Sound : MonoBehaviour {
+public class Object_Grab_Sound : MonoBehaviour {
 
 	public AudioSource soundEmitter;
 	public SoundCollection grabSoundCollection;

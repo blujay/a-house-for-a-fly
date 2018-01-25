@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc3408340d50a4540bcb2e6d9dad190b, type: 3}
+  m_Name: ChickenLoop_A_SoundCollection
+  m_EditorClassIdentifier: 
+  clips:
+  - {fileID: 8300000, guid: ec8eae3b6615d164f9a096c75096bbac, type: 3}
+  - {fileID: 8300000, guid: 01f4d3c626bf56a449402bf99c7e8e1c, type: 3}
+  - {fileID: 8300000, guid: fe034b7d5a42f06459ec8f16c8886ee1, type: 3}
+  - {fileID: 8300000, guid: 070bc8603b8b2c14493c4ce2adce1f72, type: 3}

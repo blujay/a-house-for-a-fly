@@ -37,7 +37,6 @@ AudioMixerGroupController:
   m_Effects:
   - {fileID: 24400000}
   - {fileID: 244116151293382724}
-  - {fileID: 244257478966079084}
   m_UserColorIndex: 0
   m_Mute: 0
   m_Solo: 0
@@ -238,23 +237,6 @@ AudioMixerEffectController:
   m_SendTarget: {fileID: 0}
   m_EnableWetMix: 0
   m_Bypass: 0
---- !u!244 &244257478966079084
-AudioMixerEffectController:
-  m_ObjectHideFlags: 3
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: 
-  m_EffectID: 96a51c49dd8f14beba4bf7ce3296c0d8
-  m_EffectName: Steam Audio Reverb
-  m_MixLevel: 0ad07c0d32bdc48a1b015204b636fee4
-  m_Parameters:
-  - m_ParameterName: Binaural
-    m_GUID: 6165d4ad1db684ee3931aa79635f8380
-  - m_ParameterName: Type
-    m_GUID: 9a6da97c683ec4687bd2337fab25c829
-  m_SendTarget: {fileID: 0}
-  m_EnableWetMix: 0
-  m_Bypass: 1
 --- !u!245 &245755706220386332
 AudioMixerSnapshotController:
   m_ObjectHideFlags: 0
