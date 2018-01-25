@@ -1,28 +1,38 @@
 fileFormatVersion: 2
-guid: 950854b0e5850734db12d3c0e448f52b
-timeCreated: 1467286816
+guid: 5e04c98cb0ea9492fb5ea977ac68f2dc
+timeCreated: 1516835175
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: beam
-    100002: beam_in
+    100000: bottom-plate
+    100002: catch
     100004: //RootNode
-    400000: beam
-    400002: beam_in
+    100006: pin
+    100008: top-plate
+    400000: bottom-plate
+    400002: catch
     400004: //RootNode
-    2300000: beam
-    2300002: beam_in
-    3300000: beam
-    3300002: beam_in
-    4300000: beam
-    4300002: beam_in
+    400006: pin
+    400008: top-plate
+    2300000: bottom-plate
+    2300002: catch
+    2300004: pin
+    2300006: top-plate
+    3300000: bottom-plate
+    3300002: catch
+    3300004: pin
+    3300006: top-plate
+    4300000: bottom-plate
+    4300002: top-plate
+    4300004: pin
+    4300006: catch
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Teleport
-    second: {fileID: 2100000, guid: 236cdf421d2c7c14e98f071c5b1eaad0, type: 2}
+      name: Material
+    second: {fileID: 2100000, guid: 14964204d56664ab094315d8bcb81963, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -55,10 +65,10 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
-    importVisibility: 0
+    importVisibility: 1
     importBlendShapes: 1
-    importCameras: 0
-    importLights: 0
+    importCameras: 1
+    importLights: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
@@ -74,7 +84,7 @@ ModelImporter:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
-    normalCalculationMode: 0
+    normalCalculationMode: 4
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
@@ -92,7 +102,7 @@ ModelImporter:
     rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
-    skeletonHasParents: 0
+    skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 0
   humanoidOversampling: 1
