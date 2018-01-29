@@ -10,6 +10,11 @@ TagManager:
   - Chicken
   - FxTemporaire
   - projectile
+  - egg
+  - biscuit
+  - fly
+  - bulb
+  - corn
   layers:
   - Default
   - TransparentFX
