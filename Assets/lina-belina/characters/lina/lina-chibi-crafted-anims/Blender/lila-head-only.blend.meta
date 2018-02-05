@@ -1,0 +1,208 @@
+fileFormatVersion: 2
+guid: 210feecc024929b408c87c32dd81fd8d
+timeCreated: 1517851252
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: C_rculo__pies
+    100002: C_rculo_de__pies_iz
+    100004: cabeza_wire_001
+    100006: cabeza_wire_002
+    100008: cabeza_wire_003
+    100010: Circle_001
+    100012: Circle_002
+    100014: Circle_003
+    100016: Controlador4
+    100018: Controlador5
+    100020: Controlador6
+    100022: Controlador6_001
+    100024: Empty
+    100026: Empty_001
+    100028: //RootNode
+    100030: lina-body_001
+    100032: lina-hair
+    100034: mano_wire
+    100036: mano_wire_002
+    100038: shoulder_shape_ii
+    100040: shoulder_shape_ii_001
+    100042: shoulder_shape_ii_002
+    100044: shoulder_shape_ii_003
+    400000: C_rculo__pies
+    400002: C_rculo_de__pies_iz
+    400004: cabeza_wire_001
+    400006: cabeza_wire_002
+    400008: cabeza_wire_003
+    400010: Circle_001
+    400012: Circle_002
+    400014: Circle_003
+    400016: Controlador4
+    400018: Controlador5
+    400020: Controlador6
+    400022: Controlador6_001
+    400024: Empty
+    400026: Empty_001
+    400028: //RootNode
+    400030: lina-body_001
+    400032: lina-hair
+    400034: mano_wire
+    400036: mano_wire_002
+    400038: shoulder_shape_ii
+    400040: shoulder_shape_ii_001
+    400042: shoulder_shape_ii_002
+    400044: shoulder_shape_ii_003
+    2300000: C_rculo__pies
+    2300002: C_rculo_de__pies_iz
+    2300004: cabeza_wire_001
+    2300006: cabeza_wire_002
+    2300008: cabeza_wire_003
+    2300010: Circle_001
+    2300012: Circle_002
+    2300014: Circle_003
+    2300016: Controlador4
+    2300018: Controlador5
+    2300020: Controlador6
+    2300022: Controlador6_001
+    2300024: lina-body_001
+    2300026: lina-hair
+    2300028: mano_wire
+    2300030: mano_wire_002
+    2300032: shoulder_shape_ii
+    2300034: shoulder_shape_ii_001
+    2300036: shoulder_shape_ii_002
+    2300038: shoulder_shape_ii_003
+    3300000: C_rculo__pies
+    3300002: C_rculo_de__pies_iz
+    3300004: cabeza_wire_001
+    3300006: cabeza_wire_002
+    3300008: cabeza_wire_003
+    3300010: Circle_001
+    3300012: Circle_002
+    3300014: Circle_003
+    3300016: Controlador4
+    3300018: Controlador5
+    3300020: Controlador6
+    3300022: Controlador6_001
+    3300024: lina-body_001
+    3300026: lina-hair
+    3300028: mano_wire
+    3300030: mano_wire_002
+    3300032: shoulder_shape_ii
+    3300034: shoulder_shape_ii_001
+    3300036: shoulder_shape_ii_002
+    3300038: shoulder_shape_ii_003
+    4300000: lina-body_001
+    4300002: lina-hair
+    4300004: cabeza_wire_001
+    4300006: cabeza_wire_002
+    4300008: cabeza_wire_003
+    4300010: Circle_001
+    4300012: Circle_002
+    4300014: Circle_003
+    4300016: Controlador4
+    4300018: Controlador5
+    4300020: Controlador6
+    4300022: Controlador6_001
+    4300024: C_rculo__pies
+    4300026: C_rculo_de__pies_iz
+    4300028: mano_wire
+    4300030: mano_wire_002
+    4300032: shoulder_shape_ii
+    4300034: shoulder_shape_ii_001
+    4300036: shoulder_shape_ii_002
+    4300038: shoulder_shape_ii_003
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_001
+    second: {fileID: 2100000, guid: 5e216306f34f44583aaaa540d9401612, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skin__lina-crafted-anim-oa
+    second: {fileID: 2100000, guid: 2d49a7a0261b31b4bb367b639165ad9a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: light-blue__lina-crafted-anim-oa
+    second: {fileID: 2100000, guid: 2d49a7a0261b31b4bb367b639165ad9a, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
