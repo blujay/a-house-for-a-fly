@@ -6,11 +6,119 @@ ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
+    100002: cabeza wire.001
+    100004: cabeza wire.002
+    100006: cabeza wire.003
+    100008: Circle.001
+    100010: Circle.002
+    100012: Circle.003
+    100014: Controlador4
+    100016: Controlador5
+    100018: Controlador6
+    100020: Controlador6.001
+    100022: "C\xEDrculo  pies"
+    100024: "C\xEDrculo de  pies iz"
+    100026: Empty
+    100028: Empty.001
+    100030: lina-body.001
+    100032: lina-hair
+    100034: mano wire
+    100036: mano wire.002
+    100038: shoulder_shape ii
+    100040: shoulder_shape ii.001
+    100042: shoulder_shape ii.002
+    100044: shoulder_shape ii.003
     400000: //RootNode
+    400002: cabeza wire.001
+    400004: cabeza wire.002
+    400006: cabeza wire.003
+    400008: Circle.001
+    400010: Circle.002
+    400012: Circle.003
+    400014: Controlador4
+    400016: Controlador5
+    400018: Controlador6
+    400020: Controlador6.001
+    400022: "C\xEDrculo  pies"
+    400024: "C\xEDrculo de  pies iz"
+    400026: Empty
+    400028: Empty.001
+    400030: lina-body.001
+    400032: lina-hair
+    400034: mano wire
+    400036: mano wire.002
+    400038: shoulder_shape ii
+    400040: shoulder_shape ii.001
+    400042: shoulder_shape ii.002
+    400044: shoulder_shape ii.003
     2300000: //RootNode
+    2300002: cabeza wire.001
+    2300004: cabeza wire.002
+    2300006: cabeza wire.003
+    2300008: Circle.001
+    2300010: Circle.002
+    2300012: Circle.003
+    2300014: Controlador4
+    2300016: Controlador5
+    2300018: Controlador6
+    2300020: Controlador6.001
+    2300022: "C\xEDrculo  pies"
+    2300024: "C\xEDrculo de  pies iz"
+    2300026: lina-body.001
+    2300028: lina-hair
+    2300030: mano wire
+    2300032: mano wire.002
+    2300034: shoulder_shape ii
+    2300036: shoulder_shape ii.001
+    2300038: shoulder_shape ii.002
+    2300040: shoulder_shape ii.003
     3300000: //RootNode
+    3300002: cabeza wire.001
+    3300004: cabeza wire.002
+    3300006: cabeza wire.003
+    3300008: Circle.001
+    3300010: Circle.002
+    3300012: Circle.003
+    3300014: Controlador4
+    3300016: Controlador5
+    3300018: Controlador6
+    3300020: Controlador6.001
+    3300022: "C\xEDrculo  pies"
+    3300024: "C\xEDrculo de  pies iz"
+    3300026: lina-body.001
+    3300028: lina-hair
+    3300030: mano wire
+    3300032: mano wire.002
+    3300034: shoulder_shape ii
+    3300036: shoulder_shape ii.001
+    3300038: shoulder_shape ii.002
+    3300040: shoulder_shape ii.003
     4300000: lina-body.001
+    4300002: lina-hair
+    4300004: cabeza wire.001
+    4300006: cabeza wire.002
+    4300008: cabeza wire.003
+    4300010: Circle.001
+    4300012: Circle.002
+    4300014: Circle.003
+    4300016: Controlador4
+    4300018: Controlador5
+    4300020: Controlador6
+    4300022: Controlador6.001
+    4300024: "C\xEDrculo  pies"
+    4300026: "C\xEDrculo de  pies iz"
+    4300028: mano wire
+    4300030: mano wire.002
+    4300032: shoulder_shape ii
+    4300034: shoulder_shape ii.001
+    4300036: shoulder_shape ii.002
+    4300038: shoulder_shape ii.003
   externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 76f2dbb02493f4953ad2e320ac106da8, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -55,10 +163,10 @@ ModelImporter:
     addColliders: 0
     importVisibility: 1
     importBlendShapes: 1
-    importCameras: 1
-    importLights: 1
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
