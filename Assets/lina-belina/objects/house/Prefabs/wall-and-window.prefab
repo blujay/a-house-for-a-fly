@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4830313460098948}
   - component: {fileID: 33497349053651198}
   - component: {fileID: 23914583377855916}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: slider-top-right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 59894626340217810}
   - component: {fileID: 114246618379954616}
   - component: {fileID: 114468710918159176}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: shutter-left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61,7 +61,7 @@ GameObject:
   - component: {fileID: 33250512053854110}
   - component: {fileID: 23946940314220952}
   - component: {fileID: 64966995156275732}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: glass-frame-right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -78,7 +78,7 @@ GameObject:
   - component: {fileID: 4910129822098654}
   - component: {fileID: 33010587887178758}
   - component: {fileID: 23761485170552116}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: slider-catch-left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95,7 +95,7 @@ GameObject:
   - component: {fileID: 4635408159105960}
   - component: {fileID: 33344729822323372}
   - component: {fileID: 23077619595038926}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: slider-catch-left_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -112,7 +112,7 @@ GameObject:
   - component: {fileID: 4611569664510646}
   - component: {fileID: 33038511246035108}
   - component: {fileID: 23302006468605028}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: left-catch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -129,7 +129,7 @@ GameObject:
   - component: {fileID: 4425602221049828}
   - component: {fileID: 33811185112047012}
   - component: {fileID: 23000715985773314}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: right-catch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -147,7 +147,7 @@ GameObject:
   - component: {fileID: 33189635998716118}
   - component: {fileID: 23423275800918676}
   - component: {fileID: 64007866453054122}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: glass-frame-left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -164,7 +164,7 @@ GameObject:
   - component: {fileID: 4308081097230296}
   - component: {fileID: 33780213233009680}
   - component: {fileID: 23394764191969136}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: slider-catch-right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -181,7 +181,7 @@ GameObject:
   - component: {fileID: 4949675946113732}
   - component: {fileID: 33946728879306110}
   - component: {fileID: 23870213960684020}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: slider-catch-top-left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -199,12 +199,12 @@ GameObject:
   - component: {fileID: 33796351823360536}
   - component: {fileID: 65977059657147660}
   - component: {fileID: 23832777172127332}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: wall (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1401620924659244
 GameObject:
@@ -231,7 +231,7 @@ GameObject:
   - component: {fileID: 4864970532383118}
   - component: {fileID: 33018472332002816}
   - component: {fileID: 23279306084884482}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: slider-catch-top-right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -249,12 +249,12 @@ GameObject:
   - component: {fileID: 33571787052840754}
   - component: {fileID: 65258582662116690}
   - component: {fileID: 23036203597479760}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: wall (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1476654963473102
 GameObject:
@@ -266,7 +266,7 @@ GameObject:
   - component: {fileID: 4613318163284624}
   - component: {fileID: 33570878984428792}
   - component: {fileID: 23999870128187304}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: slider-right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -284,12 +284,12 @@ GameObject:
   - component: {fileID: 33231087590262016}
   - component: {fileID: 65766507810303230}
   - component: {fileID: 23527645803555032}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1513044672329020
 GameObject:
@@ -302,12 +302,12 @@ GameObject:
   - component: {fileID: 33793211424096556}
   - component: {fileID: 23287672800755816}
   - component: {fileID: 64000466611854980}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Window_frame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!1 &1518002330886568
 GameObject:
@@ -321,7 +321,7 @@ GameObject:
   - component: {fileID: 23342035929762770}
   - component: {fileID: 65189166296841116}
   - component: {fileID: 114534487208068724}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: glass-left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -343,7 +343,7 @@ GameObject:
   - component: {fileID: 59276666236858388}
   - component: {fileID: 114177601489624382}
   - component: {fileID: 114873338729568742}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: shutter-right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -361,7 +361,7 @@ GameObject:
   - component: {fileID: 33724157148864702}
   - component: {fileID: 23590700997361908}
   - component: {fileID: 65311088667694726}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: glass-right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -378,7 +378,7 @@ GameObject:
   - component: {fileID: 4521305778383532}
   - component: {fileID: 33530423921586906}
   - component: {fileID: 23302383460161950}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: slider-top-left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -396,12 +396,12 @@ GameObject:
   - component: {fileID: 33891378432952654}
   - component: {fileID: 65501613882826248}
   - component: {fileID: 23628476296305130}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: wall (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1805486552236746
 GameObject:
@@ -413,7 +413,7 @@ GameObject:
   - component: {fileID: 4457151976410400}
   - component: {fileID: 33140939342322474}
   - component: {fileID: 23918372629172754}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: hook
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -441,7 +441,7 @@ Transform:
   m_GameObject: {fileID: 1242257544439940}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.20119661, y: 2.4316273, z: 1.7416866}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1.0004436, z: 1}
   m_Children:
   - {fileID: 4810361512420772}
   - {fileID: 4681044337614944}
@@ -525,8 +525,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1401620924659244}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 5.71, y: 7.119, z: 2.181}
-  m_LocalScale: {x: 8.251991, y: 2.6234598, z: 0.8166414}
+  m_LocalPosition: {x: 5.73, y: 6.2190003, z: 1.2709999}
+  m_LocalScale: {x: 8.251999, y: 2.6234598, z: 0.81664234}
   m_Children:
   - {fileID: 4941599532292678}
   - {fileID: 4079783963697572}
@@ -1132,7 +1132,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 43abd98297498d2438eda84db78b38c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1686,7 +1686,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0.008520007, z: 0}
   m_Axis: {x: 0, y: 0, z: 1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 2.5438907, y: 2.2644558, z: 0.2006597}
+  m_ConnectedAnchor: {x: 1.9882017, y: 1.6258104, z: -0.26760742}
   m_UseSpring: 0
   m_Spring:
     spring: 2
@@ -1720,7 +1720,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0.008520007, z: 0}
   m_Axis: {x: 0, y: 0, z: 1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 2.547302, y: 2.2626085, z: 1.2489598}
+  m_ConnectedAnchor: {x: 1.9912716, y: 1.6241479, z: 0.67585033}
   m_UseSpring: 0
   m_Spring:
     spring: 10
@@ -1753,9 +1753,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
+  serializedVersion: 3
   m_Convex: 0
-  m_InflateMesh: 0
+  m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: e9673bba322c941da999f573715f5cef, type: 3}
 --- !u!64 &64007866453054122
@@ -1767,9 +1767,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
+  serializedVersion: 3
   m_Convex: 0
-  m_InflateMesh: 0
+  m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300002, guid: e9673bba322c941da999f573715f5cef, type: 3}
 --- !u!64 &64966995156275732
@@ -1781,9 +1781,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
+  serializedVersion: 3
   m_Convex: 0
-  m_InflateMesh: 0
+  m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300008, guid: e9673bba322c941da999f573715f5cef, type: 3}
 --- !u!65 &65189166296841116
