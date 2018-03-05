@@ -178,8 +178,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1110176008221284}
-  m_LocalRotation: {x: 0.010023678, y: -0.010023676, z: 0.010023676, w: 0.9998493}
-  m_LocalPosition: {x: -1.0377655, y: 1.232769, z: 0.07194958}
+  m_LocalRotation: {x: -0.0053716702, y: -0.024623547, z: -0.005371672, w: 0.99966794}
+  m_LocalPosition: {x: -1.0238335, y: 1.221472, z: 0.042120017}
   m_LocalScale: {x: 0.08, y: 0.08, z: 0.08}
   m_Children:
   - {fileID: 4244229411415658}
@@ -571,7 +571,7 @@ TrailRenderer:
   m_DynamicOccludee: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
+  m_ReflectionProbeUsage: 2
   m_Materials:
   - {fileID: 2100000, guid: 6f279d8f7f6598e439e24f9dba981bb5, type: 2}
   m_StaticBatchInfo:
@@ -593,10 +593,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 1000
+  m_Time: 100
   m_Parameters:
     serializedVersion: 2
-    widthMultiplier: 1
+    widthMultiplier: 0.1
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -643,8 +643,8 @@ TrailRenderer:
     alignment: 1
     textureMode: 0
     generateLightingData: 1
-  m_MinVertexDistance: 0.1
-  m_Autodestruct: 0
+  m_MinVertexDistance: 0.05
+  m_Autodestruct: 1
 --- !u!108 &108885984153670050
 Light:
   m_ObjectHideFlags: 1
@@ -742,7 +742,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1110176008221284}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a3abaf4521bf2344ea21ed3020b98eb2, type: 3}
   m_Name: 
