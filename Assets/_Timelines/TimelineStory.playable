@@ -720,7 +720,7 @@ MonoBehaviour:
     m_ClipIn: 4.166666666666667
     m_Asset: {fileID: 114220694279400164}
     m_UnderlyingAsset: {fileID: 8300000, guid: 136eacf18251144c9b6087bd20efdf69, type: 3}
-    m_Duration: 19.133333333333333
+    m_Duration: 50.583333333333336
     m_TimeScale: 1
     m_ParentTrack: {fileID: 114209665933826620}
     m_EaseInDuration: 1
