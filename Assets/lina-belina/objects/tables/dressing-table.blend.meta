@@ -1,0 +1,257 @@
+fileFormatVersion: 2
+guid: 45a067a6d48a74077b299656ca0ecf93
+timeCreated: 1522531479
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: body
+    100002: body-colliders
+    100004: body-colliders_000
+    100006: body-colliders_001
+    100008: body-colliders_002
+    100010: body-colliders_003
+    100012: body-colliders_004
+    100014: body-colliders_005
+    100016: body-colliders_006
+    100018: body-colliders_009
+    100020: body-colliders_010
+    100022: body-colliders_011
+    100024: body-colliders_012
+    100026: body-colliders_013
+    100028: body-colliders_014
+    100030: body-colliders_015
+    100032: body-colliders_022
+    100034: body-colliders_026
+    100036: drawer-left
+    100038: drawer-left-colliders
+    100040: drawer-left-colliders_001
+    100042: drawer-left-colliders_002
+    100044: drawer-left-colliders_003
+    100046: drawer-left-colliders_004
+    100048: drawer-left-colliders_005
+    100050: drawer-left-handle
+    100052: drawer-right
+    100054: drawer-right-colliders
+    100056: drawer-right-colliders_001
+    100058: drawer-right-colliders_002
+    100060: drawer-right-colliders_003
+    100062: drawer-right-colliders_004
+    100064: drawer-right-colliders_005
+    100066: drawer-right-handle
+    100068: //RootNode
+    100070: Empty
+    400000: body
+    400002: body-colliders
+    400004: body-colliders_000
+    400006: body-colliders_001
+    400008: body-colliders_002
+    400010: body-colliders_003
+    400012: body-colliders_004
+    400014: body-colliders_005
+    400016: body-colliders_006
+    400018: body-colliders_009
+    400020: body-colliders_010
+    400022: body-colliders_011
+    400024: body-colliders_012
+    400026: body-colliders_013
+    400028: body-colliders_014
+    400030: body-colliders_015
+    400032: body-colliders_022
+    400034: body-colliders_026
+    400036: drawer-left
+    400038: drawer-left-colliders
+    400040: drawer-left-colliders_001
+    400042: drawer-left-colliders_002
+    400044: drawer-left-colliders_003
+    400046: drawer-left-colliders_004
+    400048: drawer-left-colliders_005
+    400050: drawer-left-handle
+    400052: drawer-right
+    400054: drawer-right-colliders
+    400056: drawer-right-colliders_001
+    400058: drawer-right-colliders_002
+    400060: drawer-right-colliders_003
+    400062: drawer-right-colliders_004
+    400064: drawer-right-colliders_005
+    400066: drawer-right-handle
+    400068: //RootNode
+    400070: Empty
+    2100000: wood
+    2100002: brass
+    2100004: collider
+    2300000: body
+    2300002: body-colliders_000
+    2300004: body-colliders_001
+    2300006: body-colliders_002
+    2300008: body-colliders_003
+    2300010: body-colliders_004
+    2300012: body-colliders_005
+    2300014: body-colliders_006
+    2300016: body-colliders_009
+    2300018: body-colliders_010
+    2300020: body-colliders_011
+    2300022: body-colliders_012
+    2300024: body-colliders_013
+    2300026: body-colliders_014
+    2300028: body-colliders_015
+    2300030: body-colliders_022
+    2300032: body-colliders_026
+    2300034: drawer-left
+    2300036: drawer-left-colliders_001
+    2300038: drawer-left-colliders_002
+    2300040: drawer-left-colliders_003
+    2300042: drawer-left-colliders_004
+    2300044: drawer-left-colliders_005
+    2300046: drawer-left-handle
+    2300048: drawer-right
+    2300050: drawer-right-colliders_001
+    2300052: drawer-right-colliders_002
+    2300054: drawer-right-colliders_003
+    2300056: drawer-right-colliders_004
+    2300058: drawer-right-colliders_005
+    2300060: drawer-right-handle
+    3300000: body
+    3300002: body-colliders_000
+    3300004: body-colliders_001
+    3300006: body-colliders_002
+    3300008: body-colliders_003
+    3300010: body-colliders_004
+    3300012: body-colliders_005
+    3300014: body-colliders_006
+    3300016: body-colliders_009
+    3300018: body-colliders_010
+    3300020: body-colliders_011
+    3300022: body-colliders_012
+    3300024: body-colliders_013
+    3300026: body-colliders_014
+    3300028: body-colliders_015
+    3300030: body-colliders_022
+    3300032: body-colliders_026
+    3300034: drawer-left
+    3300036: drawer-left-colliders_001
+    3300038: drawer-left-colliders_002
+    3300040: drawer-left-colliders_003
+    3300042: drawer-left-colliders_004
+    3300044: drawer-left-colliders_005
+    3300046: drawer-left-handle
+    3300048: drawer-right
+    3300050: drawer-right-colliders_001
+    3300052: drawer-right-colliders_002
+    3300054: drawer-right-colliders_003
+    3300056: drawer-right-colliders_004
+    3300058: drawer-right-colliders_005
+    3300060: drawer-right-handle
+    4300000: drawer-right
+    4300002: drawer-right-handle
+    4300004: drawer-right-colliders_004
+    4300006: drawer-right-colliders_003
+    4300008: drawer-right-colliders_002
+    4300010: drawer-right-colliders_001
+    4300012: drawer-right-colliders_005
+    4300014: body
+    4300016: body-colliders_002
+    4300018: body-colliders_001
+    4300020: body-colliders_000
+    4300022: body-colliders_026
+    4300024: body-colliders_022
+    4300026: body-colliders_015
+    4300028: body-colliders_014
+    4300030: body-colliders_013
+    4300032: body-colliders_012
+    4300034: body-colliders_011
+    4300036: body-colliders_010
+    4300038: body-colliders_009
+    4300040: body-colliders_006
+    4300042: body-colliders_005
+    4300044: body-colliders_004
+    4300046: body-colliders_003
+    4300048: drawer-left
+    4300050: drawer-left-handle
+    4300052: drawer-left-colliders_004
+    4300054: drawer-left-colliders_003
+    4300056: drawer-left-colliders_002
+    4300058: drawer-left-colliders_001
+    4300060: drawer-left-colliders_005
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

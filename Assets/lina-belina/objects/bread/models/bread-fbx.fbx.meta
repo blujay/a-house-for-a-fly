@@ -17,6 +17,8 @@ ModelImporter:
     3300002: //RootNode
     4300000: bread
     4300002: bread-chunk
+    6400000: bread-chunk
+    6400002: //RootNode
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -24,7 +26,7 @@ ModelImporter:
       name: white
     second: {fileID: 2100000, guid: 5cba5e67a0ae345649bdb681375112a6, type: 2}
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -54,11 +56,11 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importVisibility: 1
     importBlendShapes: 1
-    importCameras: 1
-    importLights: 1
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 1
     useFileUnits: 1
