@@ -1,0 +1,203 @@
+fileFormatVersion: 2
+guid: 37b1a1d18743b43178b2f722380ee943
+timeCreated: 1522754597
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: base-collider
+    100002: //RootNode
+    100004: colliders
+    100006: drawer
+    100008: leg-colliders.001
+    100010: leg-colliders.002
+    100012: leg-colliders.003
+    100014: leg-colliders.004
+    100016: leg-colliders.005
+    100018: leg-colliders.006
+    100020: leg-colliders.007
+    100022: leg-colliders.008
+    100024: top-collider
+    100026: bedside-table
+    100028: drawer-colliders
+    100030: drawer-colliders.001
+    100032: drawer-colliders.002
+    100034: drawer-colliders.003
+    100036: drawer-colliders.004
+    100038: drawer-handle
+    100040: back-collider
+    100042: side-collider
+    100044: side-collider-2
+    400000: base-collider
+    400002: //RootNode
+    400004: colliders
+    400006: drawer
+    400008: leg-colliders.001
+    400010: leg-colliders.002
+    400012: leg-colliders.003
+    400014: leg-colliders.004
+    400016: leg-colliders.005
+    400018: leg-colliders.006
+    400020: leg-colliders.007
+    400022: leg-colliders.008
+    400024: top-collider
+    400026: bedside-table
+    400028: drawer-colliders
+    400030: drawer-colliders.001
+    400032: drawer-colliders.002
+    400034: drawer-colliders.003
+    400036: drawer-colliders.004
+    400038: drawer-handle
+    400040: back-collider
+    400042: side-collider
+    400044: side-collider-2
+    2100000: wood.001
+    2100002: brass.001
+    2300000: base-collider
+    2300002: //RootNode
+    2300004: colliders
+    2300006: drawer
+    2300008: leg-colliders.001
+    2300010: leg-colliders.002
+    2300012: leg-colliders.003
+    2300014: leg-colliders.004
+    2300016: leg-colliders.005
+    2300018: leg-colliders.006
+    2300020: leg-colliders.007
+    2300022: leg-colliders.008
+    2300024: top-collider
+    2300026: bedside-table
+    2300028: drawer-colliders
+    2300030: drawer-colliders.001
+    2300032: drawer-colliders.002
+    2300034: drawer-colliders.003
+    2300036: drawer-colliders.004
+    2300038: drawer-handle
+    2300040: back-collider
+    2300042: side-collider
+    2300044: side-collider-2
+    3300000: base-collider
+    3300002: //RootNode
+    3300004: colliders
+    3300006: drawer
+    3300008: leg-colliders.001
+    3300010: leg-colliders.002
+    3300012: leg-colliders.003
+    3300014: leg-colliders.004
+    3300016: leg-colliders.005
+    3300018: leg-colliders.006
+    3300020: leg-colliders.007
+    3300022: leg-colliders.008
+    3300024: top-collider
+    3300026: bedside-table
+    3300028: drawer-colliders
+    3300030: drawer-colliders.001
+    3300032: drawer-colliders.002
+    3300034: drawer-colliders.003
+    3300036: drawer-colliders.004
+    3300038: drawer-handle
+    3300040: back-collider
+    3300042: side-collider
+    3300044: side-collider-2
+    4300000: bedside-table
+    4300002: drawer
+    4300004: colliders
+    4300006: base-collider
+    4300008: top-collider
+    4300010: leg-colliders.001
+    4300012: leg-colliders.002
+    4300014: leg-colliders.003
+    4300016: leg-colliders.004
+    4300018: leg-colliders.005
+    4300020: leg-colliders.006
+    4300022: leg-colliders.007
+    4300024: leg-colliders.008
+    4300026: drawer-colliders
+    4300028: drawer-colliders.001
+    4300030: drawer-colliders.002
+    4300032: drawer-colliders.003
+    4300034: drawer-colliders.004
+    4300036: drawer-handle
+    4300038: back-collider
+    4300040: side-collider
+    4300042: side-collider-2
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
