@@ -57,7 +57,7 @@ public class MirrorReflection : MonoBehaviour
 
         UpdateCameraModes(cam, reflectionCamera);
 
-        Debug.Log(cam.stereoActiveEye);
+        //Debug.Log(cam.stereoActiveEye);
         // Render reflection
         // Reflect camera around reflection plane
         float d = -Vector3.Dot(normal, pos) - m_ClipPlaneOffset;
