@@ -158,6 +158,12 @@ ModelImporter:
     100300: drawer-right_003
     100302: drawer-right_004
     100304: drawer-right_005
+    100306: back-collider
+    100308: back_001
+    100310: base-collider
+    100312: side-collider
+    100314: side-collider-2
+    100316: top-collider
     400000: anular_1_iz
     400002: anular_1_iz_001
     400004: anular_2_iz
@@ -311,6 +317,12 @@ ModelImporter:
     400300: drawer-right_003
     400302: drawer-right_004
     400304: drawer-right_005
+    400306: back-collider
+    400308: back_001
+    400310: base-collider
+    400312: side-collider
+    400314: side-collider-2
+    400316: top-collider
     2100000: Skin__lina-crafted-anim-oa
     2100002: blue__lina-crafted-anim-oa
     2100004: light-blue__lina-crafted-anim-oa
@@ -396,6 +408,12 @@ ModelImporter:
     2300132: drawer-right_003
     2300134: drawer-right_004
     2300136: drawer-right_005
+    2300138: back-collider
+    2300140: back_001
+    2300142: base-collider
+    2300144: side-collider
+    2300146: side-collider-2
+    2300148: top-collider
     3300000: bed
     3300002: bedside-table
     3300004: blanket
@@ -465,6 +483,12 @@ ModelImporter:
     3300132: drawer-right_003
     3300134: drawer-right_004
     3300136: drawer-right_005
+    3300138: back-collider
+    3300140: back_001
+    3300142: base-collider
+    3300144: side-collider
+    3300146: side-collider-2
+    3300148: top-collider
     4300000: lina-body
     4300002: lina-hair
     4300004: bed
@@ -535,6 +559,12 @@ ModelImporter:
     4300134: collider-leg-3
     4300136: collider-leg-4
     4300138: collider-leg1
+    4300140: side-collider
+    4300142: side-collider-2
+    4300144: back-collider
+    4300146: base-collider
+    4300148: top-collider
+    4300150: back_001
     7400000: Default Take
     7400002: get-on-bed
     9500000: //RootNode
