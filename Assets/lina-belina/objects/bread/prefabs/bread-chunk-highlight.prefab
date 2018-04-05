@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4614395841959872}
   - component: {fileID: 33459934614434596}
   - component: {fileID: 23456749613746014}
-  - component: {fileID: 64589836891649940}
   m_Layer: 0
   m_Name: bread-chunk-highlight
   m_TagString: Untagged
@@ -82,18 +81,4 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1724941622848740}
-  m_Mesh: {fileID: 4300002, guid: 0302e03cbf07546b7a50e42a4f50b5d1, type: 3}
---- !u!64 &64589836891649940
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1724941622848740}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300002, guid: 0302e03cbf07546b7a50e42a4f50b5d1, type: 3}
