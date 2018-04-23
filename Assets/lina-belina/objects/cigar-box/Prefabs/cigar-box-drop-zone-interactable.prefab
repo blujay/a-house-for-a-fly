@@ -296,8 +296,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4617270917611494}
   - component: {fileID: 54656528533533372}
-  - component: {fileID: 114385622435994860}
-  - component: {fileID: 114197720784860512}
   m_Layer: 0
   m_Name: cigar-box-drop-zone-interactable
   m_TagString: Untagged
@@ -722,14 +720,14 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1182549792434396}
-  m_LocalRotation: {x: -0, y: -0, z: 0.4827768, w: 0.87574345}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4513111009734874}
   m_Father: {fileID: 4617270917611494}
   m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 57.734}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4415819702815390
 Transform:
   m_ObjectHideFlags: 1
@@ -819,8 +817,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1385304430533530}
-  m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0.633, y: 1.2395, z: -1.5293}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -1.265, y: 0.11, z: 0.638}
   m_LocalScale: {x: 0.33748102, y: 0.33748025, z: 0.33748093}
   m_Children:
   - {fileID: 4415819702815390}
@@ -1863,7 +1861,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.00067132973, y: 0.0000000051078954, z: -0.000000049842615}
+  m_ConnectedAnchor: {x: -0.0006714372, y: 0.000000027812101, z: 0.000000347176}
   m_UseSpring: 1
   m_Spring:
     spring: 0
@@ -1897,7 +1895,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 0, z: 1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -2.1054302e-14, y: 0, z: -0.00000017661634}
+  m_ConnectedAnchor: {x: 0, y: 0, z: 0}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -2139,25 +2137,6 @@ MonoBehaviour:
   defaultSnappedObject: {fileID: 0}
   defaultSnappedInteractableObject: {fileID: 114062576344801424, guid: a005c7981bf1c5c42af4a0cbb045c557,
     type: 2}
---- !u!114 &114197720784860512
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1385304430533530}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8afa0b205791c9f4496bf2814aeac078, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  precisionGrab: 1
-  rightSnapHandle: {fileID: 0}
-  leftSnapHandle: {fileID: 0}
-  throwVelocityWithAttachDistance: 0
-  throwMultiplier: 1
-  onGrabCollisionDelay: 0
-  destroyImmediatelyOnThrow: 1
-  breakForce: 1500
 --- !u!114 &114334019486393330
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2170,45 +2149,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isEnabled: 1
---- !u!114 &114385622435994860
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1385304430533530}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a3abaf4521bf2344ea21ed3020b98eb2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  disableWhenIdle: 0
-  allowedNearTouchControllers: 0
-  touchHighlightColor: {r: 0, g: 0, b: 0, a: 0}
-  allowedTouchControllers: 0
-  ignoredColliders:
-  - {fileID: 65306485507234078}
-  - {fileID: 65431718892780912}
-  - {fileID: 65933357867029608}
-  - {fileID: 65326346923595816}
-  - {fileID: 65638210837021846}
-  - {fileID: 65347262838104632}
-  - {fileID: 0}
-  isGrabbable: 0
-  holdButtonToGrab: 1
-  stayGrabbedOnTeleport: 1
-  validDrop: 1
-  grabOverrideButton: 0
-  allowedGrabControllers: 0
-  grabAttachMechanicScript: {fileID: 0}
-  secondaryGrabActionScript: {fileID: 0}
-  isUsable: 0
-  holdButtonToUse: 1
-  useOnlyIfGrabbed: 0
-  pointerActivatesUseAction: 0
-  useOverrideButton: 0
-  allowedUseControllers: 0
-  objectHighlighter: {fileID: 0}
-  usingState: 0
 --- !u!114 &114517775131469886
 MonoBehaviour:
   m_ObjectHideFlags: 1

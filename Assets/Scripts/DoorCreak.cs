@@ -57,7 +57,7 @@ public class DoorCreak : MonoBehaviour {
 
 
 
-            Debug.LogFormat("isOpening={0} playbackSpeed={1}", isOpening, rotationSpeed);
+            //Debug.LogFormat("isOpening={0} playbackSpeed={1}", isOpening, rotationSpeed);
 
 
             audioSource.volume = Mathf.Clamp01(Mathf.InverseLerp(minVolSpeed, maxVolSpeed, rotationSpeed));
