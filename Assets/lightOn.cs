@@ -7,17 +7,13 @@ public class lightOn : MonoBehaviour
 
     public Light roomLight;
 
-    void Start()
+    private void OnEnable()
     {
-        roomLight.enabled = false;
-        roomLight.color = Color.blue;
+       roomLight.enabled = true;
     }
 
-    void OnTriggerEnter(Collider other)
+    private void OnDisable()
     {
-        if (other.gameObject.tag == "GameController")
-        {
-            roomLight.enabled = true;
-        }
+        roomLight.enabled = false;
     }
 }
