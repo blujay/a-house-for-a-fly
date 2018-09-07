@@ -1,0 +1,210 @@
+fileFormatVersion: 2
+guid: 7f971369b20b80e409404f373e723126
+timeCreated: 1536330838
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Shade.000
+    100004: Shade.001
+    100006: Shade.006
+    100008: Shade.010
+    100010: Shade.014
+    100012: Shade.016
+    100014: Shade.018
+    100016: Shade.022
+    100018: Shade.025
+    100020: Shade.026
+    100022: Shade.027
+    100024: Shade.028
+    100026: Shade.029
+    100028: Shade.031
+    100030: Shade.032
+    100032: Shade.036
+    100034: Shade.037
+    100036: Shade.039
+    100038: Shade.040
+    100040: Shade.041
+    100042: Shade.042
+    100044: Shade.044
+    100046: Shade.045
+    400000: //RootNode
+    400002: Shade.000
+    400004: Shade.001
+    400006: Shade.006
+    400008: Shade.010
+    400010: Shade.014
+    400012: Shade.016
+    400014: Shade.018
+    400016: Shade.022
+    400018: Shade.025
+    400020: Shade.026
+    400022: Shade.027
+    400024: Shade.028
+    400026: Shade.029
+    400028: Shade.031
+    400030: Shade.032
+    400032: Shade.036
+    400034: Shade.037
+    400036: Shade.039
+    400038: Shade.040
+    400040: Shade.041
+    400042: Shade.042
+    400044: Shade.044
+    400046: Shade.045
+    2100000: Shade
+    2100002: default
+    2300000: //RootNode
+    2300002: Shade.000
+    2300004: Shade.001
+    2300006: Shade.006
+    2300008: Shade.010
+    2300010: Shade.014
+    2300012: Shade.016
+    2300014: Shade.018
+    2300016: Shade.022
+    2300018: Shade.025
+    2300020: Shade.026
+    2300022: Shade.027
+    2300024: Shade.028
+    2300026: Shade.029
+    2300028: Shade.031
+    2300030: Shade.032
+    2300032: Shade.036
+    2300034: Shade.037
+    2300036: Shade.039
+    2300038: Shade.040
+    2300040: Shade.041
+    2300042: Shade.042
+    2300044: Shade.044
+    2300046: Shade.045
+    3300000: //RootNode
+    3300002: Shade.000
+    3300004: Shade.001
+    3300006: Shade.006
+    3300008: Shade.010
+    3300010: Shade.014
+    3300012: Shade.016
+    3300014: Shade.018
+    3300016: Shade.022
+    3300018: Shade.025
+    3300020: Shade.026
+    3300022: Shade.027
+    3300024: Shade.028
+    3300026: Shade.029
+    3300028: Shade.031
+    3300030: Shade.032
+    3300032: Shade.036
+    3300034: Shade.037
+    3300036: Shade.039
+    3300038: Shade.040
+    3300040: Shade.041
+    3300042: Shade.042
+    3300044: Shade.044
+    3300046: Shade.045
+    4300000: Shade
+    4300002: Shade.000
+    4300004: Shade.045
+    4300006: Shade.044
+    4300008: Shade.042
+    4300010: Shade.041
+    4300012: Shade.040
+    4300014: Shade.039
+    4300016: Shade.037
+    4300018: Shade.036
+    4300020: Shade.032
+    4300022: Shade.031
+    4300024: Shade.029
+    4300026: Shade.028
+    4300028: Shade.027
+    4300030: Shade.026
+    4300032: Shade.025
+    4300034: Shade.022
+    4300036: Shade.018
+    4300038: Shade.016
+    4300040: Shade.014
+    4300042: Shade.010
+    4300044: Shade.006
+    4300046: Shade.001
+    4300048: shade
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
