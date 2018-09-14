@@ -17,6 +17,8 @@ TagManager:
   - corn
   - bread
   - wallmount
+  - playsound
+  - nightmarecube
   layers:
   - Default
   - TransparentFX

@@ -42,8 +42,8 @@ MonoBehaviour:
   ambientOcclusion:
     m_Enabled: 1
     m_Settings:
-      intensity: 0.52
-      radius: 2.28
+      intensity: 1.2
+      radius: 1.07
       sampleCount: 10
       downsampling: 0
       forceForwardCompatibility: 0
@@ -77,13 +77,13 @@ MonoBehaviour:
       useCameraFov: 1
       kernelSize: 1
   motionBlur:
-    m_Enabled: 0
+    m_Enabled: 1
     m_Settings:
-      shutterAngle: 0
-      sampleCount: 10
+      shutterAngle: 81
+      sampleCount: 12
       frameBlending: 0
   eyeAdaptation:
-    m_Enabled: 0
+    m_Enabled: 1
     m_Settings:
       lowPercent: 45
       highPercent: 95
@@ -97,19 +97,19 @@ MonoBehaviour:
       logMin: -8
       logMax: 4
   bloom:
-    m_Enabled: 0
+    m_Enabled: 1
     m_Settings:
       bloom:
-        intensity: 0.43
-        threshold: 0.45
-        softKnee: 0.345
+        intensity: 0.03
+        threshold: 0.12
+        softKnee: 0.125
         radius: 1.71
         antiFlicker: 0
       lensDirt:
         texture: {fileID: 0}
         intensity: 0
   colorGrading:
-    m_Enabled: 1
+    m_Enabled: 0
     m_Settings:
       tonemapping:
         tonemapper: 1
@@ -121,7 +121,7 @@ MonoBehaviour:
         neutralWhiteClip: 10
       basic:
         postExposure: -3.5
-        temperature: 6.4
+        temperature: 38.1
         tint: 4
         hueShift: -27
         saturation: 0.69
@@ -135,7 +135,7 @@ MonoBehaviour:
         mode: 1
         log:
           slope: {r: 1, g: 1, b: 1, a: 0}
-          power: {r: 0.5070834, g: 1, b: 0.5595327, a: 0}
+          power: {r: 0.46783912, g: 1, b: 0.80234104, a: 0}
           offset: {r: 1, g: 1, b: 1, a: 0}
         linear:
           lift: {r: 0, g: 0, b: 0, a: 0}
