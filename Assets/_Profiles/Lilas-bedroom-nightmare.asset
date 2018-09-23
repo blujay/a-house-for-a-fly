@@ -42,8 +42,8 @@ MonoBehaviour:
   ambientOcclusion:
     m_Enabled: 1
     m_Settings:
-      intensity: 1.2
-      radius: 1.07
+      intensity: 1.29
+      radius: 2.28
       sampleCount: 10
       downsampling: 0
       forceForwardCompatibility: 0
@@ -100,7 +100,7 @@ MonoBehaviour:
     m_Enabled: 1
     m_Settings:
       bloom:
-        intensity: 0.03
+        intensity: 0.07
         threshold: 0.12
         softKnee: 0.125
         radius: 1.71
@@ -109,7 +109,7 @@ MonoBehaviour:
         texture: {fileID: 0}
         intensity: 0
   colorGrading:
-    m_Enabled: 0
+    m_Enabled: 1
     m_Settings:
       tonemapping:
         tonemapper: 1
@@ -120,12 +120,12 @@ MonoBehaviour:
         neutralWhiteLevel: 5.3
         neutralWhiteClip: 10
       basic:
-        postExposure: -3.5
-        temperature: 38.1
-        tint: 4
-        hueShift: -27
-        saturation: 0.69
-        contrast: 0.49
+        postExposure: 1
+        temperature: 0
+        tint: 0
+        hueShift: 0
+        saturation: 0.4
+        contrast: 0.845
       channelMixer:
         red: {x: 1, y: 0, z: 0}
         green: {x: 0, y: 1, z: 0}
@@ -135,7 +135,7 @@ MonoBehaviour:
         mode: 1
         log:
           slope: {r: 1, g: 1, b: 1, a: 0}
-          power: {r: 0.46783912, g: 1, b: 0.80234104, a: 0}
+          power: {r: 1, g: 0.64548177, b: 0, a: 0}
           offset: {r: 1, g: 1, b: 1, a: 0}
         linear:
           lift: {r: 0, g: 0, b: 0, a: 0}
