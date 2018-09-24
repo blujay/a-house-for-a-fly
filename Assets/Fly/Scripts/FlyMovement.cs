@@ -20,6 +20,7 @@ public class FlyMovement : MonoBehaviour
     public float minDistanceFromWall;
     public float restInterval;
     public bool showDebug;
+    public Animator flyAnimator;
 
     public UnityEvent flyTakeoff;
     public UnityEvent flyLanding;
