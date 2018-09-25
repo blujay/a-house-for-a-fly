@@ -23,9 +23,9 @@ GameObject:
   - component: {fileID: 114379675573031776}
   - component: {fileID: 114245909210127494}
   - component: {fileID: 114461333443878596}
-  - component: {fileID: 114770906976460960}
   - component: {fileID: 54785220636710716}
   - component: {fileID: 82677954144926984}
+  - component: {fileID: 114173120371810986}
   m_Layer: 0
   m_Name: bread-chunk
   m_TagString: Untagged
@@ -128,8 +128,8 @@ Rigidbody:
   m_GameObject: {fileID: 1217701879759140}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -229,6 +229,25 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!114 &114173120371810986
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1217701879759140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8afa0b205791c9f4496bf2814aeac078, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  precisionGrab: 1
+  rightSnapHandle: {fileID: 0}
+  leftSnapHandle: {fileID: 0}
+  throwVelocityWithAttachDistance: 0
+  throwMultiplier: 1
+  onGrabCollisionDelay: 0
+  destroyImmediatelyOnThrow: 1
+  breakForce: Infinity
 --- !u!114 &114245909210127494
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -251,7 +270,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3abaf4521bf2344ea21ed3020b98eb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  disableWhenIdle: 0
+  disableWhenIdle: 1
   allowedNearTouchControllers: 0
   touchHighlightColor: {r: 0, g: 0, b: 0, a: 0}
   allowedTouchControllers: 0
@@ -259,10 +278,10 @@ MonoBehaviour:
   isGrabbable: 1
   holdButtonToGrab: 1
   stayGrabbedOnTeleport: 0
-  validDrop: 2
+  validDrop: 1
   grabOverrideButton: 0
   allowedGrabControllers: 0
-  grabAttachMechanicScript: {fileID: 114770906976460960}
+  grabAttachMechanicScript: {fileID: 114173120371810986}
   secondaryGrabActionScript: {fileID: 114245909210127494}
   isUsable: 1
   holdButtonToUse: 1
@@ -300,24 +319,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gumPrefab: {fileID: 4252492061773390, guid: b4b12badf86de3140b9aa5cd2c76b274, type: 2}
-  headAudio: {fileID: 0}
-  mouthCollider: {fileID: 0}
---- !u!114 &114770906976460960
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1217701879759140}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8afa0b205791c9f4496bf2814aeac078, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  precisionGrab: 1
-  rightSnapHandle: {fileID: 0}
-  leftSnapHandle: {fileID: 0}
-  throwVelocityWithAttachDistance: 0
-  throwMultiplier: 1
-  onGrabCollisionDelay: 0
-  destroyImmediatelyOnThrow: 0
-  breakForce: 5000
