@@ -559,7 +559,7 @@ MonoBehaviour:
   m_Parent: {fileID: 11400000}
   m_Children: []
   m_Clips:
-  - m_Start: 20.133333333333333
+  - m_Start: 5.1
     m_ClipIn: 0
     m_Asset: {fileID: 114706075057489172}
     m_UnderlyingAsset: {fileID: 8300000, guid: b78e0902ccdb74d428ee8730406449ad, type: 3}
@@ -616,122 +616,6 @@ MonoBehaviour:
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
     m_DisplayName: Julio 3
-    m_Version: 1
-  - m_Start: 32.20666666666666
-    m_ClipIn: 0
-    m_Asset: {fileID: 114636090670057830}
-    m_UnderlyingAsset: {fileID: 8300000, guid: c10b4a7e39c43b34180d50abef43e860, type: 3}
-    m_Duration: 4.683333333333334
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: 114656377362789546}
-    m_EaseInDuration: 0.21
-    m_EaseOutDuration: 0.46
-    m_BlendInDuration: -1
-    m_BlendOutDuration: -1
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-      - serializedVersion: 2
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-      - serializedVersion: 2
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: Narration-door
-    m_Version: 1
-  - m_Start: 36.89
-    m_ClipIn: 0
-    m_Asset: {fileID: 114967406185835770}
-    m_UnderlyingAsset: {fileID: 8300000, guid: f2ed4af20eebd0b4aacef31539a3085c, type: 3}
-    m_Duration: 4.704
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: 114656377362789546}
-    m_EaseInDuration: 0.85
-    m_EaseOutDuration: 0.7
-    m_BlendInDuration: -1
-    m_BlendOutDuration: -1
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-      - serializedVersion: 2
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-      - serializedVersion: 2
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: Narration-biscuits
     m_Version: 1
 --- !u!114 &114706075057489172
 MonoBehaviour:
@@ -1011,6 +895,98 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Narration-reasons
     m_Version: 1
+  - m_Start: 22.498027801513672
+    m_ClipIn: 0
+    m_Asset: {fileID: 114636090670057830}
+    m_UnderlyingAsset: {fileID: 8300000, guid: c10b4a7e39c43b34180d50abef43e860, type: 3}
+    m_Duration: 4.683333333333334
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 114919990372102298}
+    m_EaseInDuration: 0.21
+    m_EaseOutDuration: 0.46
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Narration-door
+    m_Version: 1
+  - m_Start: 27.98073959350586
+    m_ClipIn: 0
+    m_Asset: {fileID: 114967406185835770}
+    m_UnderlyingAsset: {fileID: 8300000, guid: f2ed4af20eebd0b4aacef31539a3085c, type: 3}
+    m_Duration: 4.704
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 114919990372102298}
+    m_EaseInDuration: 0.85
+    m_EaseOutDuration: 0.7
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Narration-biscuits
+    m_Version: 1
 --- !u!114 &114943113137767960
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1057,7 +1033,7 @@ MonoBehaviour:
   m_Parent: {fileID: 11400000}
   m_Children: []
   m_Clips:
-  - m_Start: 64.97200000000001
+  - m_Start: 29.8
     m_ClipIn: 0
     m_Asset: {fileID: 114150832497664826}
     m_UnderlyingAsset: {fileID: 114150832497664826}

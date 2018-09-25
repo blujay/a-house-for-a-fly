@@ -16,6 +16,7 @@ public class munch : MonoBehaviour
     {
         print(Time.time);
         yield return new WaitForSeconds(5);
+        NewCube.GetComponent<Rigidbody>().isKinematic = false;
         Destroy(NewCube.gameObject);
         print(Time.time);
     }
@@ -42,7 +43,7 @@ public class munch : MonoBehaviour
             NewGum.transform.localPosition = handAttach.localPosition;
             NewGum.gameObject.name = "Gum";
             NewCube.GetComponent<MeshRenderer>().enabled = false;
-            NewCube.GetComponent<MeshCollider>().enabled = false;
+            //NewCube.GetComponent<MeshCollider>().enabled = false;
             StartCoroutine(DestroySelf());
             
 

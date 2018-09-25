@@ -25,7 +25,7 @@ public class eatBiscuit : MonoBehaviour {
     void OnCollisionEnter(Collision other)
     {
         //Debug.Log("Collided with " + other.collider.gameObject.name);
-        if (other.collider.name == "Collider")
+        if (other.collider.name == "mouth-collider")
         {
 
             if (collisionCount == 0)
