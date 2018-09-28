@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc3408340d50a4540bcb2e6d9dad190b, type: 3}
+  m_Name: BreadBreakPieces
+  m_EditorClassIdentifier: 
+  clips:
+  - {fileID: 8300000, guid: 17856bfb9f1ee4ae298ea5a2645c85de, type: 3}
+  - {fileID: 8300000, guid: 67d78a7aa76734877a906aa7aeaf58d2, type: 3}
+  - {fileID: 8300000, guid: cc3e55055198447e8b9720581aa2b976, type: 3}
+  - {fileID: 8300000, guid: 32ca82e6229ac48dc850781e4066616c, type: 3}
+  - {fileID: 8300000, guid: 6a0940a2d50024ef480b67f99a598ae8, type: 3}
+  - {fileID: 8300000, guid: 891757877a66049b9a8ed8dcfc4688d2, type: 3}
+  - {fileID: 8300000, guid: 91b11f44e26bd4a25831d729bc4dcecc, type: 3}
