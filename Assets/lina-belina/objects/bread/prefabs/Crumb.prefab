@@ -54,7 +54,7 @@ MeshRenderer:
   m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
+  m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 2100000, guid: 83b030021ddbe445fac2a3c19a2a28be, type: 2}
   - {fileID: 2100000, guid: 43abd98297498d2438eda84db78b38c7, type: 2}
@@ -95,6 +95,6 @@ MeshCollider:
   m_Enabled: 1
   serializedVersion: 3
   m_Convex: 1
-  m_CookingOptions: -1
+  m_CookingOptions: -2
   m_SkinWidth: 0.001
   m_Mesh: {fileID: 4300002, guid: 6180a17df45b733418b1bcf0c1e0796e, type: 3}

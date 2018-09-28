@@ -87,7 +87,7 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 0, g: 0, b: 0, a: 1}
-    - _EmissionColor: {r: 214.52, g: 181.80608, b: 53.557426, a: 34.77}
+    - _EmissionColor: {r: 40.093, g: 33.978886, b: 10.0096855, a: 40.94}
     - _MetaDiffuseAdd: {r: 0, g: 0, b: 0, a: 1}
     - _MetaDiffuseTint: {r: 1, g: 1, b: 1, a: 1}
     - _MetaEmissionAdd: {r: 0, g: 0, b: 0, a: 1}

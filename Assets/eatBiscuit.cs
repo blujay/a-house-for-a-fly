@@ -13,7 +13,14 @@ public class eatBiscuit : MonoBehaviour {
     Transform halfCookie;
     Transform wholeCookie;
     Transform crumb;
-    
+
+    IEnumerator DestroySelf()
+    {
+        print(Time.time);
+        yield return new WaitForSeconds(2);
+        Destroy(gameObject);
+    }
+
 
     void Start()
     {
@@ -56,6 +63,7 @@ public class eatBiscuit : MonoBehaviour {
             {
                 audioS.Play();
                 Destroy(crumb.gameObject);
+                StartCoroutine(DestroySelf());
             }
          
             collisionCount++;

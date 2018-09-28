@@ -42,7 +42,7 @@ MonoBehaviour:
   ambientOcclusion:
     m_Enabled: 1
     m_Settings:
-      intensity: 0.39
+      intensity: 0.3
       radius: 0.7
       sampleCount: 10
       downsampling: 0
@@ -85,7 +85,7 @@ MonoBehaviour:
   eyeAdaptation:
     m_Enabled: 1
     m_Settings:
-      lowPercent: 97.52692
+      lowPercent: 67.92243
       highPercent: 99
       minLuminance: -5
       maxLuminance: 1
@@ -100,10 +100,10 @@ MonoBehaviour:
     m_Enabled: 1
     m_Settings:
       bloom:
-        intensity: 1.92
+        intensity: 0.78
         threshold: 0.41
-        softKnee: 0.541
-        radius: 1.89
+        softKnee: 0.161
+        radius: 2.2
         antiFlicker: 0
       lensDirt:
         texture: {fileID: 0}
@@ -120,7 +120,7 @@ MonoBehaviour:
         neutralWhiteLevel: 5.3
         neutralWhiteClip: 10
       basic:
-        postExposure: 0.57
+        postExposure: -0.56
         temperature: 6.4
         tint: 0
         hueShift: 0

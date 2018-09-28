@@ -11,6 +11,3 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/nightmare.unity
     guid: 95274a6afb54eb341805a6949c2554b5
-  - enabled: 1
-    path: Assets/_Scenes/makehouse.unity
-    guid: 72062fca0a626dc4c880616b04edc03e

@@ -153,6 +153,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1280447238724872
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4649659906454914}
+  m_Layer: 0
+  m_Name: pickup
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1304151215898682
 GameObject:
   m_ObjectHideFlags: 1
@@ -315,6 +330,7 @@ GameObject:
   - component: {fileID: 4726844815573086}
   - component: {fileID: 95718739528495300}
   - component: {fileID: 114963189862696322}
+  - component: {fileID: 114150344559671958}
   m_Layer: 0
   m_Name: VRTK_BasicHand
   m_TagString: Untagged
@@ -816,7 +832,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1708282929750094}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.153}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4807924809743902}
@@ -902,7 +918,8 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 4649659906454914}
   m_Father: {fileID: 4653173414971708}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1098,6 +1115,19 @@ Transform:
   m_Father: {fileID: 4568955781540646}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4649659906454914
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1280447238724872}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.2331}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4319449009256914}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4653173414971708
 Transform:
   m_ObjectHideFlags: 1
@@ -1105,7 +1135,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1431058186026970}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.153}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4474660056667814}
@@ -1267,7 +1297,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1937369400946318}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.153}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4726844815573086}
@@ -1379,6 +1409,40 @@ MonoBehaviour:
   smoothsScale: 0
   maxAllowedPerFrameSizeDifference: 0.003
   _moment: 2
+--- !u!114 &114150344559671958
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1469220889570388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 393a6cb30fae3e841bd85dca765098f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 4726844815573086}
+  resetOnDisable: 1
+  sdkOverrides:
+  - loadedSDKSetup: {fileID: 0}
+    controllerType: 2
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0}
+    scale: {x: 1, y: 1, z: 1}
+  - loadedSDKSetup: {fileID: 0}
+    controllerType: 8
+    position: {x: 0.0135, y: 0.0475, z: -0.165}
+    rotation: {x: 60, y: 0, z: -81}
+    scale: {x: 1, y: 1, z: 1}
+  - loadedSDKSetup: {fileID: 0}
+    controllerType: 5
+    position: {x: 0.02, y: -0.0275, z: -0.12}
+    rotation: {x: 0, y: 0, z: -68}
+    scale: {x: 1, y: 1, z: 1}
+  - loadedSDKSetup: {fileID: 0}
+    controllerType: 4
+    position: {x: 0.02, y: -0.0275, z: -0.12}
+    rotation: {x: 0, y: 0, z: -68}
+    scale: {x: 1, y: 1, z: 1}
 --- !u!114 &114312545553378902
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1481,46 +1545,61 @@ MonoBehaviour:
   ringState: 0
   pinkyState: 0
   threeFingerState: 0
+  nearTouchOverrides:
+    ignoreAllOverrides: 1
+    stateValue: -1
+    applyThumbOverride: 1
+    thumbOverride: 0
+    applyIndexOverride: 1
+    indexOverride: 0
+    applyMiddleOverride: 1
+    middleOverride: 0
+    applyRingOverride: 1
+    ringOverride: 0
+    applyPinkyOverride: 1
+    pinkyOverride: 0
   touchOverrides:
-    ignoreAllOverrides: 1
+    ignoreAllOverrides: 0
     stateValue: -1
     applyThumbOverride: 1
-    thumbOverride: 0
-    applyIndexOverride: 1
+    thumbOverride: 0.2
+    applyIndexOverride: 0
     indexOverride: 0
     applyMiddleOverride: 1
-    middleOverride: 0
+    middleOverride: 0.2
     applyRingOverride: 1
-    ringOverride: 0
+    ringOverride: 0.2
     applyPinkyOverride: 1
-    pinkyOverride: 0
+    pinkyOverride: 0.2
   grabOverrides:
-    ignoreAllOverrides: 1
+    ignoreAllOverrides: 0
     stateValue: -1
     applyThumbOverride: 1
     thumbOverride: 0
-    applyIndexOverride: 1
+    applyIndexOverride: 0
     indexOverride: 0
     applyMiddleOverride: 1
-    middleOverride: 0
+    middleOverride: 1
     applyRingOverride: 1
-    ringOverride: 0
+    ringOverride: 1
     applyPinkyOverride: 1
-    pinkyOverride: 0
+    pinkyOverride: 0.5
   useOverrides:
-    ignoreAllOverrides: 1
+    ignoreAllOverrides: 0
     stateValue: -1
     applyThumbOverride: 1
-    thumbOverride: 0
-    applyIndexOverride: 1
+    thumbOverride: 0.3
+    applyIndexOverride: 0
     indexOverride: 0
     applyMiddleOverride: 1
-    middleOverride: 0
+    middleOverride: 1
     applyRingOverride: 1
-    ringOverride: 0
+    ringOverride: 1
     applyPinkyOverride: 1
-    pinkyOverride: 0
+    pinkyOverride: 1
+  handModel: {fileID: 0}
   controllerEvents: {fileID: 0}
+  interactNearTouch: {fileID: 0}
   interactTouch: {fileID: 0}
   interactGrab: {fileID: 0}
   interactUse: {fileID: 0}
@@ -1534,7 +1613,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.015
+  m_Radius: 0.03
   m_Center: {x: 0, y: -0.015, z: 0}
 --- !u!135 &135394616707351404
 SphereCollider:
@@ -1546,7 +1625,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.015
+  m_Radius: 0.03
   m_Center: {x: 0, y: -0.015, z: 0}
 --- !u!135 &135754865099814890
 SphereCollider:
@@ -1558,7 +1637,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.015
+  m_Radius: 0.03
   m_Center: {x: 0, y: -0.015, z: 0}
 --- !u!135 &135804757305491734
 SphereCollider:
@@ -1570,7 +1649,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.015
+  m_Radius: 0.03
   m_Center: {x: 0, y: -0.015, z: 0}
 --- !u!135 &135833420172407900
 SphereCollider:
@@ -1582,7 +1661,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.015
+  m_Radius: 0.03
   m_Center: {x: 0, y: -0.015, z: 0}
 --- !u!136 &136032359288340650
 CapsuleCollider:
@@ -1606,11 +1685,12 @@ SkinnedMeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 5b0e29f17b95f4b4e8bbee0faaa0ac29, type: 2}
+  - {fileID: 2100000, guid: 24935378338a74e0ab65c1c25ac2359a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1621,6 +1701,7 @@ SkinnedMeshRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
   m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
