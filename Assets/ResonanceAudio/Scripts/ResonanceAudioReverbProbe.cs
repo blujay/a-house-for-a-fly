@@ -23,35 +23,49 @@ using System.Collections;
 [ExecuteInEditMode]
 public class ResonanceAudioReverbProbe : MonoBehaviour {
   /// Supported choices of the shape of regions of application.
-  public enum ApplicationRegionShape {
+  public enum RegionShape {
     Sphere = 0,
     Box = 1
   }
 
-  /// The RT-60s of the reverb baked in this probe.
+  /// The RT60s of the reverb baked in this probe.
+  [Tooltip("Time required in seconds for the reverb to decay by 60 dB for each frequency band.")]
   public float[] rt60s = new float[] {0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f};
 
   /// Reverb gain modifier in decibels.
+  [Tooltip("Adjusts the reverb gain in the room.")]
   public float reverbGainDb = 0.0f;
 
   /// Reverb brightness modifier.
+  [Tooltip("Adjusts the balance between high and low frequencies in the reverb. Increasing this " +
+           "value will increase high frequencies in the reverb, while decreasing the low " +
+           "frequencies respectively.")]
   public float reverbBrightness = 0.0f;
 
   /// Reverb time modifier.
+  [Tooltip("Adjusts the overall duration of the reverb by a positive scaling factor.")]
   public float reverbTime = 1.0f;
 
   /// Which shape of regions of application to use at runtime to check whether the listener is
   /// inside.
-  public ApplicationRegionShape runtimeApplicationRegionShape = ApplicationRegionShape.Box;
+  [Tooltip("Shape of the region of application of this reverb.")]
+  public RegionShape regionShape = RegionShape.Box;
 
   /// Size of the box-shaped region of application, normalized with respect to scale of the game
   /// object.
-  public Vector3 boxApplicationRegionSize = Vector3.one;
+  [Tooltip("Sets the dimensions of a box-shaped region of application in meters relative to the " +
+           "scale of the game object.")]
+  public Vector3 boxRegionSize = Vector3.one;
 
   /// Radius of the sphere-shaped region of application.
-  public float sphereApplicationRegionRadius = 1.0f;
+  [Tooltip("Sets the radius of a spherical region of application in meters relative to the scale " +
+           "of the game object.")]
+  public float sphereRegionRadius = 1.0f;
 
   /// Only apply the reverb properties if this probe is visible to the listener.
+  [Tooltip("Applies this reverb only when the center of the probe is visible from the listener. " +
+           "The visibility check will be done using physics raycast with respect to the " +
+           "Occlusion Mask selection in the ResonanceAudioListener component.")]
   public bool onlyApplyWhenVisible = true;
 
   /// Proxy room related fields. A proxy room is used to calculate real-time early reflections.
@@ -91,53 +105,30 @@ public class ResonanceAudioReverbProbe : MonoBehaviour {
     ResonanceAudioRoomManager.UpdateReverbProbe(this);
   }
 
-  /// Draw either a box or sphere wire-frame depending on the runtime shape of the region of
-  /// application.
-  void OnDrawGizmosSelected() {
-    Gizmos.color = Color.magenta;
-    switch (runtimeApplicationRegionShape) {
-    case ApplicationRegionShape.Sphere:
-      Gizmos.DrawWireSphere(transform.position, GetScaledSphericalApplicationRegionRadius());
-      break;
-    case ApplicationRegionShape.Box:
-      Gizmos.matrix = transform.localToWorldMatrix;
-      Gizmos.DrawWireCube(Vector3.zero, boxApplicationRegionSize);
-      break;
-    }
-  }
-
-  /// Set proxy room properties. Proxy rooms are estimated by the ray-tracing engine and passed
-  /// back to be used in real-time early reflections.
-  public void SetProxyRoomProperties(ResonanceAudio.RoomProperties proxyRoomProperties) {
-    proxyRoomPosition = new Vector3(proxyRoomProperties.positionX,
-                                    proxyRoomProperties.positionY,
-                                    proxyRoomProperties.positionZ);
-    proxyRoomRotation = new Quaternion(proxyRoomProperties.rotationX,
-                                       proxyRoomProperties.rotationY,
-                                       proxyRoomProperties.rotationZ,
-                                       proxyRoomProperties.rotationW);
-    proxyRoomSize = new Vector3(proxyRoomProperties.dimensionsX,
-                                proxyRoomProperties.dimensionsY,
-                                proxyRoomProperties.dimensionsZ);
-    proxyRoomLeftWall = proxyRoomProperties.materialLeft;
-    proxyRoomRightWall = proxyRoomProperties.materialRight;
-    proxyRoomFloor = proxyRoomProperties.materialBottom;
-    proxyRoomCeiling = proxyRoomProperties.materialTop;
-    proxyRoomBackWall = proxyRoomProperties.materialBack;
-    proxyRoomFrontWall = proxyRoomProperties.materialFront;
-  }
-
   /// Gets the radius of the spherical region of application scaled by the transform. In order to
   /// maintain the spherical shape, the maximum of the scales in three dimensions is used to
   /// scale the radius (similar to how Unity handles Sphere Collider).
-  public float GetScaledSphericalApplicationRegionRadius() {
+  public float GetScaledSphericalRegionRadius() {
     Vector3 scale = transform.lossyScale;
-    float maxScale = Mathf.Max(scale.x, scale.y, scale.z);
-    return sphereApplicationRegionRadius * maxScale;
+    float maxScale = Mathf.Max(Mathf.Max(scale.x, scale.y), scale.z);
+    return sphereRegionRadius * maxScale;
   }
 
   /// Gets the size of the box-shaped region of application scaled by the transform.
-  public Vector3 GetScaledBoxApplicationRegionSize() {
-    return Vector3.Scale(transform.lossyScale, boxApplicationRegionSize);
+  public Vector3 GetScaledBoxRegionSize() {
+    return Vector3.Scale(transform.lossyScale, boxRegionSize);
+  }
+
+  void OnDrawGizmosSelected() {
+    Gizmos.color = Color.magenta;
+    switch (regionShape) {
+    case RegionShape.Sphere:
+      Gizmos.DrawWireSphere(transform.position, GetScaledSphericalRegionRadius());
+      break;
+    case RegionShape.Box:
+      Gizmos.matrix = transform.localToWorldMatrix;
+      Gizmos.DrawWireCube(Vector3.zero, boxRegionSize);
+      break;
+    }
   }
 }
