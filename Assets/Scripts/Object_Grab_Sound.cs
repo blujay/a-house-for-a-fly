@@ -23,20 +23,13 @@ public class Object_Grab_Sound : MonoBehaviour {
 
 	void OnObjectGrabbed(object obj,InteractableObjectEventArgs args){
 
-		AudioClip clip  = grabSoundCollection.GetRandom ();
-        soundEmitter.volume = Random.Range(0.8f, 1);
-        soundEmitter.pitch = Random.Range(0.8f, 1);
-        soundEmitter.PlayOneShot (clip);
+		grabSoundCollection.Play (soundEmitter);
 
     }
 
 	void OnObjectDropped(object obj,InteractableObjectEventArgs args){
 
-		AudioClip clip = dropSoundCollection.GetRandom ();
-        soundEmitter.volume = Random.Range(0.8f, 1);
-        soundEmitter.pitch = Random.Range(0.8f, 1);
-		soundEmitter.PlayOneShot (clip);
-
+		dropSoundCollection.Play (soundEmitter);
 	}
 }
 
