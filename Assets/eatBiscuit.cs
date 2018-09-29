@@ -7,6 +7,9 @@ public class eatBiscuit : MonoBehaviour {
     public Transform PrefabCookieHalf;
     public Transform PrefabCookieCrumb;
     public AudioSource audioS;
+    public AudioClip firstBite;
+    public AudioClip secondBite;
+    public AudioClip lastBite;
 
     int collisionCount;
     
@@ -37,7 +40,7 @@ public class eatBiscuit : MonoBehaviour {
 
             if (collisionCount == 0)
             {
-                audioS.Play();
+                audioS.PlayOneShot(firstBite);
                 halfCookie = Instantiate(PrefabCookieHalf, transform.position, Quaternion.identity) as Transform;
                 //Debug.Log("half cookie instantiated");
                 halfCookie.parent = gameObject.transform;
@@ -50,7 +53,7 @@ public class eatBiscuit : MonoBehaviour {
             else if (collisionCount == 1)
             {
 
-                audioS.Play();
+                audioS.PlayOneShot(secondBite);
                 crumb = Instantiate(PrefabCookieCrumb, transform.position, Quaternion.identity) as Transform;
                 //Debug.Log("half cookie instantiated");
                 crumb.parent = gameObject.transform;
@@ -61,7 +64,7 @@ public class eatBiscuit : MonoBehaviour {
 
             else if (collisionCount == 2)
             {
-                audioS.Play();
+                audioS.PlayOneShot(lastBite);
                 Destroy(crumb.gameObject);
                 StartCoroutine(DestroySelf());
             }

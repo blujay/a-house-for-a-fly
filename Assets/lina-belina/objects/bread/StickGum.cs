@@ -5,6 +5,8 @@ using UnityEngine;
 public class StickGum : MonoBehaviour {
     
     HouseScript houseScript;
+    public AudioSource gumAudioSource;
+    public SoundCollection stickingBreadSounds;
 
     void Start() {
         
@@ -13,6 +15,7 @@ public class StickGum : MonoBehaviour {
 	// Update is called once per frame
 	void OnEnable()
     {
+        stickingBreadSounds.Play(gumAudioSource);
         houseScript = FindObjectOfType<HouseScript>();
         houseScript.CountBreadStick();
         Debug.Log("housescript added one to breadstick");

@@ -9,6 +9,7 @@ public class Object_Grab_Sound : MonoBehaviour {
 	public AudioSource soundEmitter;
 	public SoundCollection grabSoundCollection;
 	public SoundCollection dropSoundCollection;
+    
 
     private VRTK_InteractableObject interactable;
 
