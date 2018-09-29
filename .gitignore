@@ -35,4 +35,3 @@ sysinfo.txt
 *.unitypackage
 
 .DS_Store
-Assets/Audio/Mixers/MainMixer.mixer
