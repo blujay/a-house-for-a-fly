@@ -219,6 +219,7 @@ GameObject:
   - component: {fileID: 4143958036567804}
   - component: {fileID: 33427636714049706}
   - component: {fileID: 23327917931479988}
+  - component: {fileID: 65127712081600842}
   m_Layer: 8
   m_Name: body
   m_TagString: Untagged
@@ -707,8 +708,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1434042300177704}
-  m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0.844, y: 0, z: -0.29}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 1.174, y: 0, z: 0.31500003}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 4143958036567804}
@@ -1146,6 +1147,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 2.5472186, z: 1}
   m_Center: {x: 0, y: 0.7736098, z: 0}
+--- !u!65 &65127712081600842
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1488525904873780}
+  m_Material: {fileID: 13400000, guid: 019375c221df444e1af05adeac7dd95c, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.45690706, y: 0.31573936, z: 0.51447326}
+  m_Center: {x: 0.201694, y: 0.13547441, z: 0.25723657}
 --- !u!65 &65142661285675498
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -1622,7 +1635,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0.25}
   m_Axis: {x: 0, y: 0, z: 1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.8379999, y: 0.7580003, z: 0.16000012}
+  m_ConnectedAnchor: {x: 1.0249999, y: 0.7580003, z: 0.16000009}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: -1, z: 0}
   m_XMotion: 1

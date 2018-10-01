@@ -28,6 +28,8 @@ GameObject:
   - component: {fileID: 114173120371810986}
   - component: {fileID: 114061981493932794}
   - component: {fileID: 114373422221118478}
+  - component: {fileID: 114388251974613700}
+  - component: {fileID: 114869622498071222}
   m_Layer: 0
   m_Name: bread-chunk
   m_TagString: Untagged
@@ -532,6 +534,22 @@ MonoBehaviour:
   allowedUseControllers: 0
   objectHighlighter: {fileID: 0}
   usingState: 0
+--- !u!114 &114388251974613700
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1217701879759140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c759b9ce347a094d9af742ea1748626, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundEmitter: {fileID: 82207848065436996}
+  grabSoundCollection: {fileID: 11400000, guid: 010b949f0a38c489f9d47c356ceb17a3,
+    type: 2}
+  dropSoundCollection: {fileID: 11400000, guid: 68ebc771c0d8e432baeaa2e6c789eb73,
+    type: 2}
 --- !u!114 &114461333443878596
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -560,3 +578,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gumPrefab: {fileID: 4252492061773390, guid: b4b12badf86de3140b9aa5cd2c76b274, type: 2}
+--- !u!114 &114869622498071222
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1217701879759140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b2c6b141c49847d983dc0cbf6964035, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSource: {fileID: 82207848065436996}
+  objectSoundCollection: {fileID: 11400000, guid: e3ed9f93530234ba8ac22ae9b2b73e25,
+    type: 2}
