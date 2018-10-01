@@ -1210,7 +1210,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 243639203304341540, guid: 88b61f870133a2f48a5ed691468e07e3,
     type: 2}
-  m_audioClip: {fileID: 8300000, guid: 84a37601f53684444bca1fef8e74b36b, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -5942,9 +5942,9 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 114650647718999690, guid: 1df82e19b436cae4997b07200b8cb37a,
+    - target: {fileID: 114877657499775956, guid: 1df82e19b436cae4997b07200b8cb37a,
         type: 2}
-      propertyPath: OnTouch.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      propertyPath: soundEmitter
       value: 
       objectReference: {fileID: 173343655}
     - target: {fileID: 114679599408636484, guid: 1df82e19b436cae4997b07200b8cb37a,

@@ -28,6 +28,7 @@ GameObject:
   - component: {fileID: 114650647718999690}
   - component: {fileID: 114415495248814670}
   - component: {fileID: 114392625187345198}
+  - component: {fileID: 114877657499775956}
   m_Layer: 0
   m_Name: cookie
   m_TagString: Untagged
@@ -324,18 +325,7 @@ MonoBehaviour:
       Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   OnTouch:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: Play
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: VRTK.UnityEventHelper.VRTK_InteractableObject_UnityEvents+InteractableObjectEvent,
       Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   OnUntouch:
@@ -432,6 +422,20 @@ MonoBehaviour:
   onGrabCollisionDelay: 0
   destroyImmediatelyOnThrow: 1
   breakForce: 7000
+--- !u!114 &114877657499775956
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1067503063104240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba956e8d5bf174e97986840143c911ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundEmitter: {fileID: 0}
+  touchSound: {fileID: 11400000, guid: 7608d39580a614c9391638c5c994acd2, type: 2}
+  PlayOnlyOnce: 1
 --- !u!114 &114896877281961574
 MonoBehaviour:
   m_ObjectHideFlags: 1
