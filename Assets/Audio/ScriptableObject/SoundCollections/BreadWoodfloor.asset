@@ -9,15 +9,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fc3408340d50a4540bcb2e6d9dad190b, type: 3}
-  m_Name: PaperPickup
+  m_Name: BreadWoodfloor
   m_EditorClassIdentifier: 
   clips:
-  - {fileID: 8300000, guid: 2b824f75a9cd5453f839d911616d80b5, type: 3}
-  - {fileID: 8300000, guid: 9537c8ecc095e454cb6c03e205b6807e, type: 3}
-  - {fileID: 8300000, guid: 346c9bf5129bd48c0a2ac2e383e6df6a, type: 3}
-  - {fileID: 8300000, guid: d25e070ce769f411785614bb3cfb81d8, type: 3}
-  - {fileID: 8300000, guid: d216221bf083a4ce892105953361240a, type: 3}
-  volumeMinValue: 0.69
+  - {fileID: 8300000, guid: 9a9d9708ae328874e840f4059ea33fe2, type: 3}
+  - {fileID: 8300000, guid: 15cd7013cf70b7444bfa8157ef56d92a, type: 3}
+  - {fileID: 8300000, guid: 6f64fe2168e8a7a4290255b7e9ddab72, type: 3}
+  - {fileID: 8300000, guid: 1d9f759337a27114791fe68767e2aab7, type: 3}
+  - {fileID: 8300000, guid: e920818c27b9fea4e8f5222cb4294b6f, type: 3}
+  volumeMinValue: 0.43
   volumeMaxValue: 1
   pitchMinValue: 0.65
   pitchMaxValue: 1

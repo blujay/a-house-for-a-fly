@@ -120,7 +120,7 @@ Transform:
   m_GameObject: {fileID: 1455385221462098}
   m_LocalRotation: {x: -0, y: -0, z: -0.7071066, w: -0.70710707}
   m_LocalPosition: {x: 0, y: 0.0017, z: -0.1957}
-  m_LocalScale: {x: 1.2082438, y: 1, z: 0.89155173}
+  m_LocalScale: {x: 1.5864024, y: 1.3129817, z: 1.1705911}
   m_Children: []
   m_Father: {fileID: 4788014354883906}
   m_RootOrder: 2
@@ -133,7 +133,7 @@ Transform:
   m_GameObject: {fileID: 1393970513132788}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0.0003498774, y: 0.0023, z: -0.19544}
-  m_LocalScale: {x: 0.23651382, y: 0.36161482, z: 0.35771477}
+  m_LocalScale: {x: 0.3134201, y: 0.4791997, z: 0.47403148}
   m_Children: []
   m_Father: {fileID: 4788014354883906}
   m_RootOrder: 1
@@ -144,9 +144,9 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1390432010435710}
-  m_LocalRotation: {x: 0, y: 0.70710677, z: -0.70710677, w: 0}
-  m_LocalPosition: {x: 0.377, y: 1.028, z: -1.8}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.5, y: 0.5, z: -0.5, w: 0.5}
+  m_LocalPosition: {x: 0.862, y: 1.6783515, z: -2.145}
+  m_LocalScale: {x: 1, y: 1, z: 1.1515044}
   m_Children:
   - {fileID: 4797269220685916}
   - {fileID: 4660550380646586}
@@ -154,7 +154,7 @@ Transform:
   - {fileID: 4517343569845206}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 90, y: 90, z: -90.00001}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: -90.00001}
 --- !u!4 &4797269220685916
 Transform:
   m_ObjectHideFlags: 1
@@ -162,8 +162,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1013794342716678}
   m_LocalRotation: {x: -0.5, y: 0.5, z: -0.5, w: 0.5}
-  m_LocalPosition: {x: 0.0021398645, y: 0.0014772, z: -0.19508}
-  m_LocalScale: {x: 0.35771477, y: 0.23705535, z: 0.35771495}
+  m_LocalPosition: {x: 0.0021398645, y: 0.0014772, z: -0.1788}
+  m_LocalScale: {x: 0.47076154, y: 0.31197077, z: 0.47076184}
   m_Children: []
   m_Father: {fileID: 4788014354883906}
   m_RootOrder: 0
@@ -179,8 +179,8 @@ MeshRenderer:
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 2100000, guid: 5d1df5c2618088e42a31aeb03d8c5df8, type: 2}
   m_StaticBatchInfo:
@@ -343,7 +343,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -365,7 +365,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1390432010435710}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8a37a5ae8f47c2a42ab4fbb6564d92e7, type: 3}
   m_Name: 
@@ -407,13 +407,13 @@ MonoBehaviour:
   touchHighlightColor: {r: 0, g: 0, b: 0, a: 0}
   allowedTouchControllers: 0
   ignoredColliders: []
-  isGrabbable: 1
+  isGrabbable: 0
   holdButtonToGrab: 1
   stayGrabbedOnTeleport: 0
   validDrop: 1
   grabOverrideButton: 0
   allowedGrabControllers: 0
-  grabAttachMechanicScript: {fileID: 0}
+  grabAttachMechanicScript: {fileID: 114292079680438924}
   secondaryGrabActionScript: {fileID: 0}
   isUsable: 0
   holdButtonToUse: 0
