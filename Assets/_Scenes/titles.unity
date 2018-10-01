@@ -7413,49 +7413,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 10
       objectReference: {fileID: 0}
-    - target: {fileID: 153360737480040918, guid: 734c2e91495784011a89d5f7c6a13560,
-        type: 2}
-      propertyPath: m_ConnectedAnchor.z
-      value: 0.16000012
-      objectReference: {fileID: 0}
-    - target: {fileID: 82222701161443222, guid: 734c2e91495784011a89d5f7c6a13560,
-        type: 2}
-      propertyPath: m_Pitch
-      value: 1.94
-      objectReference: {fileID: 0}
-    - target: {fileID: 82222701161443222, guid: 734c2e91495784011a89d5f7c6a13560,
-        type: 2}
-      propertyPath: m_Volume
-      value: 0.621
-      objectReference: {fileID: 0}
-    - target: {fileID: 65078549918631698, guid: 734c2e91495784011a89d5f7c6a13560,
-        type: 2}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: 019375c221df444e1af05adeac7dd95c,
-        type: 2}
-    - target: {fileID: 65882818024376312, guid: 734c2e91495784011a89d5f7c6a13560,
-        type: 2}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: 019375c221df444e1af05adeac7dd95c,
-        type: 2}
-    - target: {fileID: 65812374264464504, guid: 734c2e91495784011a89d5f7c6a13560,
-        type: 2}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: 019375c221df444e1af05adeac7dd95c,
-        type: 2}
-    - target: {fileID: 65035326824555920, guid: 734c2e91495784011a89d5f7c6a13560,
-        type: 2}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: 019375c221df444e1af05adeac7dd95c,
-        type: 2}
-    - target: {fileID: 4143958036567804, guid: 734c2e91495784011a89d5f7c6a13560, type: 2}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 734c2e91495784011a89d5f7c6a13560, type: 2}
   m_IsPrefabParent: 0
