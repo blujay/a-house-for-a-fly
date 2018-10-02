@@ -24,3 +24,7 @@ MonoBehaviour:
     audio: {fileID: 11400000, guid: 02a51464f09ef4200bae2e5a7d5b1561, type: 2}
     audioMixerOutput: {fileID: 243834008333679346, guid: 88b61f870133a2f48a5ed691468e07e3,
       type: 2}
+  - physicMaterial: {fileID: 13400000, guid: 019375c221df444e1af05adeac7dd95c, type: 2}
+    audio: {fileID: 11400000, guid: 17bc92687f04f43d1b3f06f45a909837, type: 2}
+    audioMixerOutput: {fileID: 243834008333679346, guid: 88b61f870133a2f48a5ed691468e07e3,
+      type: 2}

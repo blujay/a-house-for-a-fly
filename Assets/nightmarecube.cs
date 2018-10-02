@@ -48,6 +48,7 @@ public class nightmarecube : MonoBehaviour {
             //Debug.Log("altered vol: " + cotVol);
             explosion.Play();
             Destroy(this.gameObject);
+            
             //Debug.Log("killed");
         }
 
