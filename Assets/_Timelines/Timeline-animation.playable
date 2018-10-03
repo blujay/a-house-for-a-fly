@@ -403,7 +403,6 @@ MonoBehaviour:
   - m_Start: 20.216666666666665
     m_ClipIn: 0
     m_Asset: {fileID: 114910275953562230}
-    m_UnderlyingAsset: {fileID: 74522098823416806}
     m_Duration: 16.016666666666666
     m_TimeScale: 1
     m_ParentTrack: {fileID: 114176150711676752}
@@ -573,7 +572,7 @@ MonoBehaviour:
   m_Name: Animation Track2
   m_EditorClassIdentifier: 
   m_Locked: 0
-  m_Muted: 0
+  m_Muted: 1
   m_CustomPlayableFullTypename: 
   m_AnimClip: {fileID: 0}
   m_Parent: {fileID: 11400000}
@@ -582,7 +581,6 @@ MonoBehaviour:
   - m_Start: 20.216666666666665
     m_ClipIn: 0
     m_Asset: {fileID: 114259531266500644}
-    m_UnderlyingAsset: {fileID: 74326117040639690}
     m_Duration: 41.61666666666667
     m_TimeScale: 1
     m_ParentTrack: {fileID: 114865313101241936}
