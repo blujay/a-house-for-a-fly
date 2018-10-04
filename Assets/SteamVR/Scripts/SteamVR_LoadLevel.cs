@@ -425,9 +425,11 @@ public class SteamVR_LoadLevel : MonoBehaviour
 			}
 		}
 
-		// Finally, stick around long enough for our overlays to fully fade out.
-		while (alpha > 0.0f)
-			yield return null;
+        // Finally, stick around long enough for our overlays to fully fade out.
+        //Paul Hayes: Transition washanging here, no idea what was meant to be modifying alpha here
+        //while (alpha > 0.0f)
+        //    yield return null;
+        
 
 		if (overlay != null)
 		{
