@@ -410,7 +410,7 @@ AnimationClip:
         tangentMode: 136
       - serializedVersion: 2
         time: 21.933332
-        value: 15
+        value: 2.38
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -418,6 +418,86 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_HeightFogAmount
+    path: 
+    classID: 114
+    script: {fileID: 11500000, guid: f35c02a2c6230584391703bf32006791, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 21.933332
+        value: 0.32
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_GlobalDensityMult
+    path: 
+    classID: 114
+    script: {fileID: 11500000, guid: f35c02a2c6230584391703bf32006791, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 21.933332
+        value: 4.14
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_AmbientLightIntensity
+    path: 
+    classID: 114
+    script: {fileID: 11500000, guid: f35c02a2c6230584391703bf32006791, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 21.933332
+        value: 0.5955882
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_AmbientLightColor.r
+    path: 
+    classID: 114
+    script: {fileID: 11500000, guid: f35c02a2c6230584391703bf32006791, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 21.933332
+        value: 0.5888229
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_AmbientLightColor.g
+    path: 
+    classID: 114
+    script: {fileID: 11500000, guid: f35c02a2c6230584391703bf32006791, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 21.933332
+        value: 0.5605536
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_AmbientLightColor.b
     path: 
     classID: 114
     script: {fileID: 11500000, guid: f35c02a2c6230584391703bf32006791, type: 3}
@@ -432,6 +512,41 @@ AnimationClip:
     - serializedVersion: 2
       path: 0
       attribute: 4052719049
+      script: {fileID: 11500000, guid: f35c02a2c6230584391703bf32006791, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 0
+      attribute: 3127637426
+      script: {fileID: 11500000, guid: f35c02a2c6230584391703bf32006791, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 0
+      attribute: 2534607976
+      script: {fileID: 11500000, guid: f35c02a2c6230584391703bf32006791, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 0
+      attribute: 290700040
+      script: {fileID: 11500000, guid: f35c02a2c6230584391703bf32006791, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 0
+      attribute: 2089705443
+      script: {fileID: 11500000, guid: f35c02a2c6230584391703bf32006791, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 0
+      attribute: 216312684
       script: {fileID: 11500000, guid: f35c02a2c6230584391703bf32006791, type: 3}
       typeID: 114
       customType: 0
@@ -469,7 +584,7 @@ AnimationClip:
         tangentMode: 136
       - serializedVersion: 2
         time: 21.933332
-        value: 15
+        value: 2.38
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -477,6 +592,86 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_HeightFogAmount
+    path: 
+    classID: 114
+    script: {fileID: 11500000, guid: f35c02a2c6230584391703bf32006791, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 21.933332
+        value: 0.32
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_GlobalDensityMult
+    path: 
+    classID: 114
+    script: {fileID: 11500000, guid: f35c02a2c6230584391703bf32006791, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 21.933332
+        value: 4.14
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_AmbientLightIntensity
+    path: 
+    classID: 114
+    script: {fileID: 11500000, guid: f35c02a2c6230584391703bf32006791, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 21.933332
+        value: 0.5955882
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_AmbientLightColor.r
+    path: 
+    classID: 114
+    script: {fileID: 11500000, guid: f35c02a2c6230584391703bf32006791, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 21.933332
+        value: 0.5888229
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_AmbientLightColor.g
+    path: 
+    classID: 114
+    script: {fileID: 11500000, guid: f35c02a2c6230584391703bf32006791, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 21.933332
+        value: 0.5605536
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_AmbientLightColor.b
     path: 
     classID: 114
     script: {fileID: 11500000, guid: f35c02a2c6230584391703bf32006791, type: 3}

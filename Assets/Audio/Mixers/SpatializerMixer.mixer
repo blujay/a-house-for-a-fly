@@ -24,6 +24,7 @@ AudioMixerController:
     - e40356ba45ba7441289df224d26d551b
     - b0f4f95dc3d824e0b9d44ec6681529c2
     - 0e149c6de0fb64a0eb83360d1501583a
+    - 967651c3ed9ba614a9bfe2de48e8894f
     name: View
   m_CurrentViewIndex: 0
   m_TargetSnapshot: {fileID: 24500003}
@@ -37,6 +38,7 @@ AudioMixerGroupController:
   m_GroupID: 725e77d6ee2433b4388bc90340f64b61
   m_Children:
   - {fileID: 243776414622880988}
+  - {fileID: 243834756788983432}
   m_Volume: 0658889d5c88bf940b82d78b8d39562e
   m_Pitch: 0d4bed6fb113d6f4089b817171a98447
   m_Effects:
@@ -314,6 +316,23 @@ AudioMixerGroupController:
   m_Mute: 0
   m_Solo: 0
   m_BypassEffects: 0
+--- !u!243 &243834756788983432
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: fly
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: 967651c3ed9ba614a9bfe2de48e8894f
+  m_Children: []
+  m_Volume: be19d06e3dfb5de4797dbebd9f52c701
+  m_Pitch: a015a3d460384ae4b8f8e6894a81e11c
+  m_Effects:
+  - {fileID: 244462054542868228}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
 --- !u!244 &244062390875989470
 AudioMixerEffectController:
   m_ObjectHideFlags: 3
@@ -354,6 +373,19 @@ AudioMixerEffectController:
     m_GUID: e462400a2ed2f45228e6ed285ecbfbf3
   - m_ParameterName: Resonance
     m_GUID: d50c5f7fcf60e4cd29fd896a73ca8d49
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!244 &244462054542868228
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_EffectID: ab5a81344162428459071088344b127f
+  m_EffectName: Attenuation
+  m_MixLevel: f9c2839c020edae4e8a6bfc46ee578db
+  m_Parameters: []
   m_SendTarget: {fileID: 0}
   m_EnableWetMix: 0
   m_Bypass: 0

@@ -8,10 +8,11 @@ public class HouseScript : MonoBehaviour {
     public GameObject backLayer;
     public GameObject middleLayer;
     public GameObject frontLayer;
-    public GameObject fly;
-    bool backLayerComplete;
-    bool middleLayerComplete;
-    bool houseComplete;
+    public GameObject flyHouse;
+    public GameObject mainFly;
+    public bool backLayerComplete = false;
+    public bool middleLayerComplete = false;
+    public bool houseComplete = false;
 
 
 
@@ -27,7 +28,7 @@ public class HouseScript : MonoBehaviour {
 
         middleLayer.SetActive(false);
         frontLayer.SetActive(false);
-        fly.SetActive(false);
+        flyHouse.SetActive(false);
 
         backLayerGums = backLayer.transform.childCount;
         Debug.Log("number of gums in backlayer is: " + backLayerGums);
@@ -48,7 +49,11 @@ public class HouseScript : MonoBehaviour {
         if (!backLayerComplete) { MakeBackLayer(); }
         if(backLayerComplete && !middleLayerComplete) { MakeMiddleLayer(); }
         if(middleLayerComplete) { MakeFrontLayer(); }
-        if(houseComplete) { fly.SetActive(true); }
+        if(houseComplete)
+        {
+            flyHouse.SetActive(true);
+            mainFly.SetActive(false);
+        }
     }
 
     void MakeBackLayer()
