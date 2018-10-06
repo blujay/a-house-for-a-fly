@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class StickGum : MonoBehaviour {
     
-    HouseScript houseScript;
+    HouseEasy houseScript;
     public AudioSource gumAudioSource;
     public SoundCollection stickingBreadSounds;
 
@@ -16,7 +16,7 @@ public class StickGum : MonoBehaviour {
 	void OnEnable()
     {
         stickingBreadSounds.Play(gumAudioSource);
-        houseScript = FindObjectOfType<HouseScript>();
+        houseScript = FindObjectOfType<HouseEasy>();
         houseScript.CountBreadStick();
         Debug.Log("housescript added one to breadstick");
         Debug.Log("bricks stuck = " + houseScript.brickCount);

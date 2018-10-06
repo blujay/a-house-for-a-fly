@@ -479,8 +479,8 @@ MonoBehaviour:
   snapDuration: 0
   applyScalingOnSnap: 0
   cloneNewOnUnsnap: 0
-  highlightColor: {r: 0.9411765, g: 0.1314879, b: 0.1314879, a: 0}
-  validHighlightColor: {r: 1, g: 0, b: 0, a: 0}
+  highlightColor: {r: 0.4156863, g: 0.48235297, b: 0.63529414, a: 0}
+  validHighlightColor: {r: 1, g: 1, b: 1, a: 0}
   highlightAlwaysActive: 1
   validObjectListPolicy: {fileID: 114257372739426190}
   displayDropZoneInEditor: 0
